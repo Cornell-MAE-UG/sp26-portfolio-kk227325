@@ -8,11 +8,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : Your Name
+title                    : Keisuke Kwong
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : Your Name
-description              : Your Name - Projects and CV 
+name                     : Keisuke Kwong
+description              : Keisuke Kwong - Projects and CV 
 baseurl                  : "/sp26-portfolio-kk227325"
 
 # Theme and Style
