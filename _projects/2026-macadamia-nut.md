@@ -10,7 +10,7 @@ image: /assets/images/macadamia-problem.png
 **Find:** Optimal dimensions for a nutcracker design
 
 **Given:**
-<img src="https://github.com/Cornell-MAE-UG/sp26-portfolio-kk227325/blob/ca7483985b23720b3fafc63140c1eb4aed067ac8/assets/images/macadamia-drawing.png" width="400" />
+<img src="{{ site.baseurl }}/assets/images/macadamia-drawing.png" width="400" />
 <ul>
   <li><b>d</b> = diameter of a macadamia nut = <b>1 in</b></li>
   <li><b>F<sub>N</sub></b> = Force necessary to break a macadamia nut = <b>222 kgf</b></li>
@@ -24,7 +24,7 @@ Note: The force to break a macadamia nut was found from this source[^1], and P w
 [^1]: Bailey, A. (2025, November 10). *How do you compare to the average grip strength?* Everyday Health. https://www.everydayhealth.com/workouts-activities/average-grip-strength-by-age-charts-how-do-you-compare/
 [^2]: Schrauf, C., Huber, L., & Visalberghi, E. (2008). Do capuchin monkeys use weight to select hammer tools? *Anim Cogn* 11, 413–422. https://doi.org/10.1007/s10071-007-0131-2
 
-<img src="https://github.com/Cornell-MAE-UG/sp26-portfolio-kk227325/blob/ca7483985b23720b3fafc63140c1eb4aed067ac8/assets/images/macadamia-fbd.png" width="400" />
+<img src="{{ site.baseurl }}/assets/images/macadamia-fbd.png" width="400" />
 
 **Plan:**
 <ol type="1">
@@ -38,7 +38,7 @@ Note: The force to break a macadamia nut was found from this source[^1], and P w
 
 1) 
 
-<img src="https://github.com/Cornell-MAE-UG/sp26-portfolio-kk227325/blob/ca7483985b23720b3fafc63140c1eb4aed067ac8/assets/images/macadamia-one-arm.png" width="300" />
+<img src="{{ site.baseurl }}/assets/images/macadamia-one-arm.png" width="300" />
 
 2) $\Sigma M_A = F_N \cdot a - P \cdot b = 0$
 
@@ -52,7 +52,7 @@ $\Rightarrow a : b = 1 : 11.1$
 
 Result:
 
-<img src="https://github.com/Cornell-MAE-UG/sp26-portfolio-kk227325/blob/ca7483985b23720b3fafc63140c1eb4aed067ac8/assets/images/macadamia-part1complete.png" width="400" />
+<img src="{{ site.baseurl }}/assets/images/macadamia-part1complete.png" width="400" />
 
 **Reflection:**
 The slope of the arm will be 1:2, which is a reasonable angle to grip (as opposed to a 45° angle, for example). The nut will be relatively easy to crack even for elderly or others with a weaker grip strength since I used a conservative value for P. The size of the nut cracker is a bit large (about 1 foot long), but it should reasonably fit in a kitchen drawer, and the ease to crack nuts thanks to the long lever arm makes it worth the extra length.
@@ -63,7 +63,7 @@ The slope of the arm will be 1:2, which is a reasonable angle to grip (as oppose
 **Find:** Optimal dimensions for a nutcracker design using a [linear actuator](https://www.progressiveautomations.com/products/pa-mc2?variant=43915326587060).
 
 **Given:** 
-<img src="https://github.com/Cornell-MAE-UG/sp26-portfolio-kk227325/blob/ca7483985b23720b3fafc63140c1eb4aed067ac8/assets/images/macadamia-linear-actuator.png" width="400" />
+<img src="{{ site.baseurl }}/assets/images/macadamia-linear-actuator.png" width="400" />
 <ul>
   <li><b>d</b> = diameter of a macadamia nut = <b>1 in</b></li>
   <li><b>F<sub>N</sub></b> = Force necessary to break a macadamia nut = <b>222 kgf = 489 lbf</b></li>
@@ -82,7 +82,7 @@ The slope of the arm will be 1:2, which is a reasonable angle to grip (as oppose
 
 1)
 
-<img src="https://github.com/Cornell-MAE-UG/sp26-portfolio-kk227325/blob/ca7483985b23720b3fafc63140c1eb4aed067ac8/assets/images/macadamia-one-arm.png" width="300" />
+<img src="{{ site.baseurl }}/assets/images/macadamia-one-arm.png" width="300" />
 
 2) $\Sigma M_A = F_N \cdot a - P \cdot b = 0$
 
@@ -92,11 +92,11 @@ $\Rightarrow a : b = 1 : 8.7$
 
 3) Just as before, we can let a = d = 1 in, which makes b = 8.7 in.
 
-<img src="https://github.com/Cornell-MAE-UG/sp26-portfolio-kk227325/blob/2fe8ec4476b08d95c7cb6c0b507f4dc8aec341fe/assets/images/macadamia-part2complete-one-arm.png" width="400" />
+<img src="{{ site.baseurl }}/assets/images/macadamia-part2complete-one-arm.png" width="400" />
 
 Result:
 
-<img src="https://github.com/Cornell-MAE-UG/sp26-portfolio-kk227325/blob/2fe8ec4476b08d95c7cb6c0b507f4dc8aec341fe/assets/images/macadamia-part2complete.png" width="400" />
+<img src="{{ site.baseurl }}/assets/images/macadamia-part2complete.png" width="400" />
 
 **Reflection:**
 
