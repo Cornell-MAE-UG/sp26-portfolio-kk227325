@@ -92,11 +92,11 @@ $\Rightarrow a : b = 1 : 8.7$
 
 3) Just as before, we can let a = d = 1 in, which makes b = 8.7 in.
 
-<img src="https://github.com/Cornell-MAE-UG/sp26-portfolio-kk227325/blob/ca7483985b23720b3fafc63140c1eb4aed067ac8/assets/images/macadamia-part2complete-one-arm.png" width="400" />
+<img src="https://github.com/Cornell-MAE-UG/sp26-portfolio-kk227325/blob/2fe8ec4476b08d95c7cb6c0b507f4dc8aec341fe/assets/images/macadamia-part2complete-one-arm.png" width="400" />
 
 Result:
 
-<img src="https://github.com/Cornell-MAE-UG/sp26-portfolio-kk227325/blob/ca7483985b23720b3fafc63140c1eb4aed067ac8/assets/images/macadamia-part2complete.png" width="400" />
+<img src="https://github.com/Cornell-MAE-UG/sp26-portfolio-kk227325/blob/2fe8ec4476b08d95c7cb6c0b507f4dc8aec341fe/assets/images/macadamia-part2complete.png" width="400" />
 
 **Reflection:**
 
