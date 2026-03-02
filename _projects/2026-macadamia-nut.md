@@ -43,11 +43,29 @@ $\Rightarrow a : b = 1 : 11.1$
 
 4) Arm length = $b \cdot \frac{\sqrt{a^2+(\frac{d}{2})^2}}{a} = 12.4 \text{ in}$
 
+Result:
+![macadamia-part1complete](/assets/images/macadamia-part1complete.png)
+
 **Reflection:**
 The slope of the arm will be 1:2, which is a reasonable angle to grip (as opposed to a 45° angle, for example). 
 The nut will be relatively easy to crack even for elderly or others with a weaker grip strength since I used a conservative value for P.
 The size of the nut cracker is a bit large (about 1 foot long), but it should reasonably fit in a kitchen drawer, 
 and the ease to crack nuts thanks to the long lever arm makes it worth the extra length.
+
+**Part 2**
+
+**Find:** Optimal dimensions for a nutcracker design using a linear actuator.
+
+**Given:** 
+
+<ul>
+  <li><b>d</b> = diameter of a macadamia nut = <b>1 in</b></li>
+  <li><b>F<sub>N</sub></b> = Force necessary to break a macadamia nut = <b>222 kgf = 489 lbf</b></li>
+  <li><b>P</b> = Force specifications of linear actuator = <b>56 lbf</b></li>
+  <li><b>Stroke</b> of linear actuator = <b>8 in</b></li>
+</ul>
+
+
 
 2) $\Sigma M_A = F_N \cdot a - P \cdot b = 0$
 
