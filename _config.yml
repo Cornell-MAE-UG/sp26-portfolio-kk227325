@@ -13,6 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Keisuke Kwong
 description              : Keisuke Kwong - Projects and CV 
+url                      : "https://cornell-mae-ug.github.io"
 baseurl                  : "/sp26-portfolio-kk227325"
 
 # Theme and Style
