@@ -85,11 +85,11 @@ The slope of the arm will be 1:2, which is a reasonable angle to grip (as oppose
 
 <img src="{{ site.baseurl }}/assets/images/macadamia-one-arm.png" width="300" />
 
-2) $\Sigma M_A = F_N \cdot a - P \cdot b = 0$
+2) $$\Sigma M_A = F_N \cdot a - P \cdot b = 0$$
 
 $$\Rightarrow \frac{b}{a} = \frac{F_N}{P} = \frac{489 \text{ lbs}}{56 \text{ lbs}} = 8.7$$
 
-$\Rightarrow a : b = 1 : 8.7$
+$$\Rightarrow a : b = 1 : 8.7$$
 
 3) Just as before, we can let a = d = 1 in, which makes b = 8.7 in.
 
