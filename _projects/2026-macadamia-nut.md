@@ -2,6 +2,7 @@
 layout: project
 title: Macadamia Nut Nut Cracker Design
 description: Mechanism Analysis for ENGRD 2020
+technologies: [GitHub Pages, Jekyll, MathJax, Markdown]
 image: /assets/images/macadamia-problem.png
 mathjax: true
 ---
