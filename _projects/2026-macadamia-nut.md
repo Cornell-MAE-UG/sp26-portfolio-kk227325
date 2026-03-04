@@ -12,7 +12,9 @@ mathjax: true
 **Find:** Optimal dimensions for a nutcracker design
 
 **Given:**
+
 <img src="{{ site.baseurl }}/assets/images/macadamia-drawing.png" width="400" />
+
 <ul>
   <li><b>d</b> = diameter of a macadamia nut = <b>1 in</b></li>
   <li><b>F<sub>N</sub></b> = Force necessary to break a macadamia nut = <b>222 kgf</b></li>
@@ -29,6 +31,7 @@ Note: The force to break a macadamia nut was found from this source[^1], and P w
 <img src="{{ site.baseurl }}/assets/images/macadamia-fbd.png" width="400" />
 
 **Plan:**
+
 <ol type="1">
   <li>Draw a FBD of one arm</li>
   <li>ΣM<sub>A</sub>=0 to find ratio of a:b</li>
@@ -56,18 +59,21 @@ $$\Rightarrow a : b = 1 : 11.1$$
 
 Result:
 
-<img src="{{ site.baseurl }}/assets/images/macadamia-part1complete.png" width="400" />
+<img src="{{ site.baseurl }}/assets/images/macadamia-part1complete.png" width="400" style="display: block; margin: 0 auto;" />
 
 **Reflection:**
 The slope of the arm will be 1:2, which is a reasonable angle to grip (as opposed to a 45° angle, for example). The nut will be relatively easy to crack even for elderly or others with a weaker grip strength since I used a conservative value for P. The size of the nut cracker is a bit large (about 1 foot long), but it should reasonably fit in a kitchen drawer, and the ease to crack nuts thanks to the long lever arm makes it worth the extra length.
 
+***
 
 **Part 2: Nutcracker using a linear actuator**
 
 **Find:** Optimal dimensions for a nutcracker design using a [linear actuator](https://www.progressiveautomations.com/products/pa-mc2?variant=43915326587060).
 
 **Given:** 
+
 <img src="{{ site.baseurl }}/assets/images/macadamia-linear-actuator.png" width="400" />
+
 <ul>
   <li><b>d</b> = diameter of a macadamia nut = <b>1 in</b></li>
   <li><b>F<sub>N</sub></b> = Force necessary to break a macadamia nut = <b>222 kgf = 489 lbf</b></li>
@@ -76,6 +82,7 @@ The slope of the arm will be 1:2, which is a reasonable angle to grip (as oppose
 </ul>
 
 **Plan:**
+
 <ol type="1">
   <li>Draw a FBD of one arm</li>
   <li>ΣM<sub>A</sub>=0 to find ratio of a:b</li>
@@ -102,7 +109,7 @@ $$\Rightarrow a : b = 1 : 8.7$$
 
 Result:
 
-<img src="{{ site.baseurl }}/assets/images/macadamia-part2complete.png" width="400" />
+<img src="{{ site.baseurl }}/assets/images/macadamia-part2complete.png" width="400" style="display: block; margin: 0 auto;" />
 
 **Reflection:**
 
