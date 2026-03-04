@@ -3,6 +3,7 @@ layout: project
 title: Macadamia Nut Nut Cracker Design
 description: Mechanism Analysis for ENGRD 2020
 image: /assets/images/macadamia-problem.png
+mathjax: true
 ---
 
 **Part 1: Manual nutcracker**
