@@ -87,7 +87,7 @@ The slope of the arm will be 1:2, which is a reasonable angle to grip (as oppose
 
 2) $\Sigma M_A = F_N \cdot a - P \cdot b = 0$
 
-$\Rightarrow \frac{b}{a} = \frac{F_N}{P} = \frac{489 \text{ lbs}}{56 \text{ lbs}} = 8.7$
+$$\Rightarrow \frac{b}{a} = \frac{F_N}{P} = \frac{489 \text{ lbs}}{56 \text{ lbs}} = 8.7$$
 
 $\Rightarrow a : b = 1 : 8.7$
 
@@ -101,4 +101,4 @@ Result:
 
 **Reflection:**
 
-Compared to the manual design, this design is significantly smaller (8.7" vs 11.1" long). Additionally, rather than having straight handles , we can curve the handles so that the linear actuator stroke is sufficient to fully close the nut cracker. The [linear actuator](https://www.progressiveautomations.com/products/pa-mc2?variant=43915326587060) used in this design costs $79.99, which is a relatively low-cost model among linear actuators.
+Compared to the manual design, this design is significantly smaller (8.7" vs 11.1" long). Additionally, rather than having straight handles, we can curve the handles so that the linear actuator stroke is sufficient to fully close the nut cracker. The [linear actuator](https://www.progressiveautomations.com/products/pa-mc2?variant=43915326587060) used in this design costs $79.99, which is a relatively low-cost model among linear actuators.
