@@ -93,8 +93,6 @@ $$\Rightarrow \frac{b}{a} = \frac{F_N}{P} = \frac{489 \text{ lbs}}{56 \text{ lbs
 
 $$\Rightarrow a : b = 1 : 8.7$$
 
-eq
-
 3) Just as before, we can let a = d = 1 in, which makes b = 8.7 in.
 
 <img src="{{ site.baseurl }}/assets/images/macadamia-part2complete-one-arm.png" width="400" />
