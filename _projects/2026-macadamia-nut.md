@@ -41,11 +41,13 @@ Note: The force to break a macadamia nut was found from this source[^1], and P w
 
 <img src="{{ site.baseurl }}/assets/images/macadamia-one-arm.png" width="300" />
 
-2) $\Sigma M_A = F_N \cdot a - P \cdot b = 0$
+2)
 
-$\Rightarrow \frac{b}{a} = \frac{F_N}{P} = \frac{222 \text{ kgf}}{20 \text{ kgf}} = 11.1$
+$$\Sigma M_A = F_N \cdot a - P \cdot b = 0$$
 
-$\Rightarrow a : b = 1 : 11.1$
+$$\Rightarrow \frac{b}{a} = \frac{F_N}{P} = \frac{222 \text{ kgf}}{20 \text{ kgf}} = 11.1$$
+
+$$\Rightarrow a : b = 1 : 11.1$$
 
 3) Since d = 1 in, we can let a = 1 in, which makes b = 11.1 in.
 
