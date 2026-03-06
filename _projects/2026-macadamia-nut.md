@@ -113,4 +113,4 @@ Result:
 
 **Reflection:**
 
-Compared to the manual design, this design is significantly smaller (8.7" vs 11.1" long). Additionally, rather than having straight handles, we can curve the handles so that the linear actuator stroke is sufficient to fully close the nut cracker. The [linear actuator](https://www.progressiveautomations.com/products/pa-mc2?variant=43915326587060) used in this design costs $79.99, which is a relatively low-cost model among linear actuators.
+Compared to the manual design, this design is significantly smaller (8.7" vs 11.1" long) and much more practical, though we do need to take into account the extra size of the linear actuator, which would stick out around 9.73" according to the [supplier website](https://www.progressiveautomations.com/products/pa-mc2?variant=43915326587060). Additionally, rather than having straight handles, we can curve the handles so that the linear actuator stroke is sufficient to fully close the nut cracker. The [linear actuator](https://www.progressiveautomations.com/products/pa-mc2?variant=43915326587060) used in this design costs $79.99, which is a relatively low-cost model among linear actuators.
