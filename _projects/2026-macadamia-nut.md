@@ -62,7 +62,7 @@ Result:
 <img src="{{ site.baseurl }}/assets/images/macadamia-part1complete.png" width="400" style="display: block; margin: 0 auto;" />
 
 **Reflection:**
-The slope of the arm will be 1:2, which is a reasonable angle to grip (as opposed to a 45° angle, for example). The nut will be relatively easy to crack even for elderly or others with a weaker grip strength since I used a conservative value for P. The size of the nut cracker is a bit large (about 1 foot long), but it should reasonably fit in a kitchen drawer, and the ease to crack nuts thanks to the long lever arm makes it worth the extra length.
+The size of the nut cracker is quite large (about 1 foot long). On top of that, the slope of the arm will be 1:2, which means that the arms would be $11.1 \text{ in} \cdot \frac{1}{2} \cdot 2 = 11.1 \text{ in}$ apart, which is impossible to grip with one hand. Although the nut will be relatively easy to crack even for elderly or others with a weaker grip strength in terms of the force, the large size of this tool makes its design impractical.
 
 ***
 
