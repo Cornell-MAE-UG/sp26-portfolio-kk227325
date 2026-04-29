@@ -13,7 +13,12 @@ mathjax: true
 
 **Given:**
 
-<img src="{{ site.baseurl }}/assets/images/macadamia-drawing.png" width="400" />
+<figure>
+  <p>
+    <img src="{{ site.baseurl }}/assets/images/macadamia-drawing.png" alt="macadamia-drawing" width="400" />
+    <figcaption align="center"><b>Figure 1: Overall diagram of nut cracker.</b></figcaption>
+  </p>
+</figure>
 
 <ul>
   <li><b>d</b> = diameter of a macadamia nut = <b>1 in</b></li>
@@ -26,7 +31,12 @@ Note: The force to break a macadamia nut was found from this source[^1], and P w
 [^1]: Bailey, A. (2025, November 10). *How do you compare to the average grip strength?* Everyday Health. https://www.everydayhealth.com/workouts-activities/average-grip-strength-by-age-charts-how-do-you-compare/
 [^2]: Schrauf, C., Huber, L., & Visalberghi, E. (2008). Do capuchin monkeys use weight to select hammer tools? *Anim Cogn* 11, 413–422. https://doi.org/10.1007/s10071-007-0131-2
 
-<img src="{{ site.baseurl }}/assets/images/macadamia-fbd.png" width="400" />
+<figure>
+  <p>
+    <img src="{{ site.baseurl }}/assets/images/macadamia-fbd.png" alt="macadamia-fbd" width="400" />
+    <figcaption align="center"><b>Figure 2: Overall free body diagram nut cracker.</b></figcaption>
+  </p>
+</figure>
 
 **Plan:**
 
@@ -40,8 +50,12 @@ Note: The force to break a macadamia nut was found from this source[^1], and P w
 **Solution:**
 
 1) 
-
-<img src="{{ site.baseurl }}/assets/images/macadamia-one-arm.png" width="300" />
+<figure>
+  <p>
+    <img src="{{ site.baseurl }}/assets/images/macadamia-one-arm.png" alt="macadamia-one-arm-fbd" width="300" />
+    <figcaption align="center"><b>Figure 3: Free body diagram of one handle.</b></figcaption>
+  </p>
+</figure>
 
 2)
 
@@ -57,7 +71,12 @@ $$\Rightarrow a : b = 1 : 11.1$$
 
 Result:
 
-<img src="{{ site.baseurl }}/assets/images/macadamia-part1complete.png" width="400" style="display: block; margin: 0 auto;" />
+<figure>
+  <p align="center">
+    <img src="{{ site.baseurl }}/assets/images/macadamia-part1complete.png" alt="macadamia-part1complete" width="400" />
+    <figcaption align="center"><b>Figure 4: Nut cracker design.</b></figcaption>
+  </p>
+</figure>
 
 **Reflection:**
 The size of the nut cracker is quite large (about 1 foot long). On top of that, the slope of the arm will be 1:2, which means that the arms would be $11.1 \text{ in} \cdot \frac{1}{2} \cdot 2 = 11.1 \text{ in}$ apart, which is impossible to grip with one hand. Although the nut will be relatively easy to crack even for elderly or others with a weaker grip strength in terms of the force, the large size of this tool makes its design impractical.
@@ -70,7 +89,12 @@ The size of the nut cracker is quite large (about 1 foot long). On top of that, 
 
 **Given:** 
 
-<img src="{{ site.baseurl }}/assets/images/macadamia-linear-actuator.png" width="400" />
+<figure>
+  <p>
+    <img src="{{ site.baseurl }}/assets/images/macadamia-linear-actuator.png" alt="nut cracker with linear actuator" width="400" />
+    <figcaption align="center"><b>Figure 5: Nut cracker with linear actuator</b></figcaption>
+  </p>
+</figure>
 
 <ul>
   <li><b>d</b> = diameter of a macadamia nut = <b>1 in</b></li>
@@ -91,7 +115,13 @@ The size of the nut cracker is quite large (about 1 foot long). On top of that, 
 
 1)
 
-<img src="{{ site.baseurl }}/assets/images/macadamia-one-arm.png" width="300" />
+<figure>
+  <p>
+    <img src="{{ site.baseurl }}/assets/images/macadamia-one-arm.png" alt="macadamia-one-arm-fbd" width="300" />
+    <figcaption align="center"><b>Figure 3: Free body diagram of one handle. (Reproduced from Figure 3)</b></figcaption>
+  </p>
+</figure>
+
 
 2)
 
@@ -103,11 +133,21 @@ $$\Rightarrow a : b = 1 : 8.7$$
 
 3) Just as before, we can let a = d = 1 in, which makes b = 8.7 in.
 
-<img src="{{ site.baseurl }}/assets/images/macadamia-part2complete-one-arm.png" width="400" />
+<figure>
+  <p>
+    <img src="{{ site.baseurl }}/assets/images/macadamia-part2complete-one-arm.png" alt="macadamia-part2-one-arm" width="400" />
+    <figcaption align="center"><b>Figure 6: Complete diagram of one arm.</b></figcaption>
+  </p>
+</figure>
 
 Result:
 
-<img src="{{ site.baseurl }}/assets/images/macadamia-part2complete.png" width="400" style="display: block; margin: 0 auto;" />
+<figure>
+  <p align="center">
+    <img src="{{ site.baseurl }}/assets/images/macadamia-part2complete.png" alt="macadamia-part2complete" width="400" />
+    <figcaption align="center"><b>Figure 7: Nut cracker design with linear actuator.</b></figcaption>
+  </p>
+</figure>
 
 **Reflection:**
 
@@ -132,7 +172,12 @@ Now, we will treat the arms as beams that can undergo bending (rather than being
   <li>uses a new coordinate system with point A at the origin and the x-direction along the handle </li>
 </ul>
 
-<img src="{{ site.baseurl }}/assets/images/macadamia-part3fbd.png" width="300" style="display: block; margin: 0 auto;" />
+<figure>
+  <p>
+    <img src="{{ site.baseurl }}/assets/images/macadamia-part3fbd.png" alt="macadamia-part3fbd" width="300" />
+    <figcaption align="center"><b>Figure 8: New free body diagram of one arm.</b></figcaption>
+  </p>
+</figure>
 
 **Find:** Location of maximum elastic deflection in the nutcracker handles.
 
@@ -143,7 +188,7 @@ Now, we will treat the arms as beams that can undergo bending (rather than being
   <li>Draw FBDs for two slices: one through segment AB and one through segment BC</li>
   <li>ΣM<sub>slice</sub>=0 to find M(x) for each slice</li>
   <li>Solve for y(x) using the equation $EIy'' = M(x)$, boundary conditions derived from the supports, and continuity conditions at point B</li>
-  <li>Solve y'(x)=0 to find the location of maximum deflection</li>
+  <li>Solve y'(x)=0 and find the location of maximum deflection</li>
 </ol>
 
 **Solution:**
@@ -158,7 +203,12 @@ $$P' = P\cos{\theta} = 56 \text{ lbf}\cos{0.463} = 50. \text{ lbf}$$
 
 2)
 
-<img src="{{ site.baseurl }}/assets/images/macadamia-part3fbdslice.png" width="300" />
+<figure>
+  <p>
+    <img src="{{ site.baseurl }}/assets/images/macadamia-part3fbdslice.png" alt="macadamia-part3fbdslice" width="300" />
+    <figcaption align="center"><b>Figure 9: Free body diagram of handle at slices through AB and BC.</b></figcaption>
+  </p>
+</figure>
 
 Note: lengths were calculated using trigonometry and the value of angle θ from part 1:
 
@@ -182,28 +232,34 @@ $$\Rightarrow M(x) = - P' \cdot (9.73"-x) \text{  for  }1.12"<x<9.73"$$
 
 4) Using the equation $EIy'' = M(x)$, we have:
 
-$$EIy'' = \left\{
+$$
+EIy'' = \left\{
 \begin{array}{ll}
       F_N' \cdot (1.12-x) - P' \cdot (9.73-x) & 0 < x < 1.12 \text{ in} \\
       -P' \cdot (9.73-x) & 1.12 < x < 9.73 \text{ in}
 \end{array} 
-\right.$$
+\right.
+$$
 
 Then, we can integrate this equation twice to get:
 
-$$EIy' = \left\{
+$$
+EIy' = \left\{
 \begin{array}{ll}
-      F_N' \cdot (1.12x-\frac{1}{2}x^2) - P' \cdot (9.73x-\frac{1}{2}x^2) + c_1 & 0"<x<1.12" \\
-      - P' \cdot (9.73x-\frac{1}{2}x^2) + c_2 & 1.12"<x<9.73"
+      F_N' \cdot (1.12x-\frac{1}{2}x^2) - P' \cdot (9.73x-\frac{1}{2}x^2) + c_1 & 0 < x < 1.12 \text{ in} \\
+      - P' \cdot (9.73x-\frac{1}{2}x^2) + c_2 & 1.12 < x < 9.73 \text{ in}
 \end{array}
-\right$$
+\right.
+$$
 
-$$EIy = \left\{
+$$
+EIy = \left\{
 \begin{array}{ll}
-      F_N' \cdot (0.56x^2-\frac{1}{6}x^3) - P' \cdot (4.86x^2-\frac{1}{6}x^3) + c_1x + c_3 & 0"<x<1.12" \\
-      - P' \cdot (4.86x^2-\frac{1}{6}x^3) + c_2x + c_4 & 1.12<x<9.73"
+      F_N' \cdot (0.56x^2-\frac{1}{6}x^3) - P' \cdot (4.86x^2-\frac{1}{6}x^3) + c_1x + c_3 & 0 < x < 1.12 \text{ in} \\
+      - P' \cdot (4.86x^2-\frac{1}{6}x^3) + c_2x + c_4 & 1.12 < x < 9.73 \text{ in}
 \end{array}
-\right$$
+\right.
+$$
 
 From the pinned support at point A and roller at point B, we can write the boundary conditions $y(x = 0) = 0$ and $y(x = 1.12")= 0$. From the continuity conditions at point B, we also have y(x = 1.12") and y'(x = 1.12") are equal for both pieces of the piecewise function.
 
@@ -233,9 +289,50 @@ $$\Rightarrow c_4 = -101$$
 
 So, we have:
 
-$$y(x) = \left\{
+$$
+y(x) = \left\{
 \begin{array}{ll}
-      \frac{1}{EI} (F_N' \cdot (0.56x^2-\frac{1}{6}x^3) - P' \cdot (4.86x^2-\frac{1}{6}x^3) + 78.3x) & 0"<x<1.12" \\
-      \frac{1}{EI} (- P' \cdot (4.86x^2-\frac{1}{6}x^3) + 351.4x + -101) & 1.12<x<9.73"
+      \frac{1}{EI} (F_N' \cdot (0.56x^2-\frac{1}{6}x^3) - P' \cdot (4.86x^2-\frac{1}{6}x^3) + 78.3x) & 0 < x < 1.12 \text{ in} \\
+      \frac{1}{EI} (- P' \cdot (4.86x^2-\frac{1}{6}x^3) + 351.4x - 101) & 1.12 < x < 9.73 \text{ in}
 \end{array}
-\right$$
+\right.
+$$
+
+5) To find the value of x that maximizes y(x), we solve $yʻ(x)=0$:
+
+$$
+y'(x) = 0 = \left\{
+\begin{array}{ll}
+      \frac{1}{EI} \left[ F_N' \cdot (1.12x-\frac{1}{2}x^2) - P' \cdot (9.73x-\frac{1}{2}x^2) + 78.3 \right] & 0 < x < 1.12 \text{ in} \\
+      \frac{1}{EI} \left[ - P' \cdot (9.73x-\frac{1}{2}x^2) + 351.4 \right] & 1.12 < x < 9.73 \text{ in}
+\end{array}
+\right.
+$$
+
+Solving, we find that the only solution in the range [0, 9.73] is $x = 0.64 \text{ in}$.
+
+Plugging in the critical point x = 0.64" and endpoints x = 0" and x = 9.73" into the equation for y(x), we get:
+
+<div align="center">
+  <b>Table 1: Magnitude of deflection at critical points</b>
+
+| x (in) | y(x) (in) |
+| :--- | :--- |
+| 0 | 0 |
+| 0.64 | $\frac{33.9}{EI}$ |
+| 9.73 | $\frac{-12000}{EI}$ |
+
+</div>
+
+The value of x that yields the largest magnitude of deflection is at x = <b>9.73 in</b>.
+
+**Reflection**
+
+It makes sense that the largest deflection of the handle occurs at the free end which is subjected to the downward applied force P. In fact, the sign and relative magnitudes from table 1 of the small positive (upward) deflection at x = 0.64" and the much larger negative (downward) deflection at x = 9.73" match my intuition of how the handle should bend, as shown in the image below.
+
+<figure>
+  <p>
+    <img src="{{ site.baseurl }}/assets/images/macadamia-part3-reflection.png" alt="macadamia-part3-reflection" width="300" />
+    <figcaption align="center"><b>Figure 10: Free body diagram of handle at slices through AB and BC.</b></figcaption>
+  </p>
+</figure>
