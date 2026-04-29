@@ -169,13 +169,13 @@ $$AC = AB + BC = 9.73"$$
 
 $$ΣM_\text{slice} = -M(x) + F_N' \cdot (1.12"-x) - P' \cdot (9.73"-x) =0$$
 
-$$\Rightarrow M(x) = F_N' \cdot (1.12"-x) - P' \cdot (9.73"-x) \text{ for }0"<x<1.12"$$
+$$\Rightarrow M(x) = F_N' \cdot (1.12"-x) - P' \cdot (9.73"-x) \text{  for  }0"<x<1.12"$$
 
 Next, using the FBD of the slice through BC:
 
 $$ΣM_\text{slice} = -M(x) - P' \cdot (9.73"-x) = 0$$
 
-$$\Rightarrow M(x) = - P' \cdot (9.73"-x) \text{ for }1.12"<x<9.73"$$
+$$\Rightarrow M(x) = - P' \cdot (9.73"-x) \text{  for  }1.12"<x<9.73"$$
 
 4) Using the equation $EIy'' = M(x)$, we have:
 
@@ -210,14 +210,27 @@ $$0 = 0 - 0 + 0 + c_3 \Rightarrow c_3 = 0$$
 
 BC $y(x = 1.12") = 0$:
 
-$$0 = 437 \text{ lbf} \cdot (0.56x^2-\frac{1}{6}x^3) - 50. \text{ lbf} \cdot (4.86\cdot(1.12)^2-\frac{1}{6}\cdot(1.12)^3) + c_1\cdot(1.12) + 0 \Rightarrow c_1 = 78.3$$
+$$0 = 437 \text{ lbf} \cdot (0.56 \cdot 1.12^2-\frac{1}{6} \cdot 1.12^3) - 50. \text{ lbf} \cdot (4.86 \cdot 1.12^2-\frac{1}{6} \cdot 1.12^3)$$
+$$ + c_1 \cdot 1.12 + 0 \Rightarrow c_1 = 78.3$$
 
 "No Kinks" condition $y_L'(x = 1.12") = y_R'(x = 1.12")$:
 
-$$437 \text{ lbf} \cdot (1.12\cdot(1.12)-\frac{1}{2}\cdot(1.12)^2) - 50. \text{ lbf} \cdot (9.73\cdot(1.12)-\frac{1}{2}\cdot(1.12)^2) + 78.3 = - P' \cdot (9.73\cdot(1.12)-\frac{1}{2}\cdot(1.12)^2) + c_2$$
+$$437 \text{ lbf} \cdot (1.12 \cdot 1.12-\frac{1}{2} \cdot 1.12^2) - 50. \text{ lbf} \cdot (9.73\cdot 1.12-$$
+$$\frac{1}{2}\cdot 1.12^2) + 78.3 = - P' \cdot (9.73\cdot 1.12-\frac{1}{2} \cdot 1.12^2) + c_2$$
 
-$$\Rightarrow c_2 = 78.3$$
+$$\Rightarrow c_2 = 351.4$$
 
 "No Jumps" condition $y_L(x = 1.12") = y_R(x = 1.12")$:
 
-$$0 = - 50. \text{ lbf} \cdot (4.86\cdot(1.12)^2-\frac{1}{6}\cdot(1.12)^3) + c_2\cdot(1.12) + c_4$$
+$$0 = - 50. \text{ lbf} \cdot (4.86 \cdot 1.12^2-\frac{1}{6} \cdot 1.12^3) + c_2 \cdot 1.12 + c_4$$
+
+$$\Rightarrow c_4 = -101$$
+
+So, we have:
+
+$$y(x) = \left\{
+  \begin{array}{ll}
+    \frac{1}{EI} (F_N' \cdot (0.56x^2-\frac{1}{6}x^3) - P' \cdot (4.86x^2-\frac{1}{6}x^3) + 78.3x) & 0"<x<1.12" \\
+    \frac{1}{EI} (- P' \cdot (4.86x^2-\frac{1}{6}x^3) + 351.4x + -101) & 1.12<x<9.73"
+  \end{array}
+\right$$
