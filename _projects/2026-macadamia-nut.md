@@ -23,8 +23,6 @@ mathjax: true
 
 Note: The force to break a macadamia nut was found from this source[^1], and P was determined by using the average grip strength of elderly women in order to make the nutcracker accessible[^2].
 
-***
-
 [^1]: Bailey, A. (2025, November 10). *How do you compare to the average grip strength?* Everyday Health. https://www.everydayhealth.com/workouts-activities/average-grip-strength-by-age-charts-how-do-you-compare/
 [^2]: Schrauf, C., Huber, L., & Visalberghi, E. (2008). Do capuchin monkeys use weight to select hammer tools? *Anim Cogn* 11, 413–422. https://doi.org/10.1007/s10071-007-0131-2
 
@@ -33,7 +31,7 @@ Note: The force to break a macadamia nut was found from this source[^1], and P w
 **Plan:**
 
 <ol type="1">
-  <li>Draw a FBD of one arm</li>
+  <li>Draw a free body diagram (FBD) of one arm</li>
   <li>ΣM<sub>A</sub>=0 to find ratio of a:b</li>
   <li>Use d to find optimal lengths a & b</li>
   <li>Calculate length of each arm</li>
@@ -114,3 +112,33 @@ Result:
 **Reflection:**
 
 Compared to the manual design, this design is significantly smaller (8.7" vs 11.1" long) and much more practical, though we do need to take into account the extra size of the linear actuator, which would stick out around 9.73" according to the [supplier website](https://www.progressiveautomations.com/products/pa-mc2?variant=43915326587060). Additionally, rather than having straight handles, we can curve the handles so that the linear actuator stroke is sufficient to fully close the nut cracker. The [linear actuator](https://www.progressiveautomations.com/products/pa-mc2?variant=43915326587060) used in this design costs $79.99, which is a relatively low-cost model among linear actuators.
+
+***
+
+**Part 3: Bending handles**
+
+**Given:**
+
+Now, we will treat the arms as beams that can undergo bending (rather than being rigid). We will use a modified version of the free body diagram drawn in part 2 which:
+<ul>
+  <li>assumes the handle to be a straight beam</li>
+  <li>treats the pivot at point A as a pin and the point of contact with the macadamia nut as a roller</li>
+  <li>considers only the components of each force transverse to the beam</li>
+  <li>uses a new coordinate system with point A at the origin and the x-direction along the handle </li>
+</ul>
+
+<img src="{{ site.baseurl }}/assets/images/macadamia-part3fbd.png" width="300" style="display: block; margin: 0 auto;" />
+
+**Find:** Location of maximum elastic deflection in the nutcracker handles.
+
+**Plan:**
+
+<ol type="1">
+  <li>Evaluate P' and F<sub>N</sub>', the components of P and F<sub>N</sub> transverse to the handle</li>
+  <li>Draw FBDs for two slices: one through segment AB and one through segment BC</li>
+  <li>ΣM<sub>slice</sub>=0 to find M(x) for each slice</li>
+  <li>Solve for y(x) using the equation EIy" = M(x), boundary conditions derived from the supports, and continuity conditions at point B</li>
+  <li>Solve y'(x)=0 to find the location of maximum deflection</li>
+</ol>
+
+**Solution:**
