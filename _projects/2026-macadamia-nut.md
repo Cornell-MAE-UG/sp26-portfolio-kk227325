@@ -139,10 +139,10 @@ Now, we will treat the arms as beams that can undergo bending (rather than being
 **Plan:**
 
 <ol type="1">
-  <li>Evaluate P' and F<sub>N</sub>', the components of P and F<sub>N</sub> transverse to the handle</li>
+  <li>Evaluate the magnitudes of P' and F<sub>N</sub>', the components of P and F<sub>N</sub> transverse to the handle</li>
   <li>Draw FBDs for two slices: one through segment AB and one through segment BC</li>
   <li>ΣM<sub>slice</sub>=0 to find M(x) for each slice</li>
-  <li>Solve for y(x) using the equation EIy" = M(x), boundary conditions derived from the supports, and continuity conditions at point B</li>
+  <li>Solve for y(x) using the equation $EIy'' = M(x)$, boundary conditions derived from the supports, and continuity conditions at point B</li>
   <li>Solve y'(x)=0 to find the location of maximum deflection</li>
 </ol>
 
@@ -152,9 +152,9 @@ Now, we will treat the arms as beams that can undergo bending (rather than being
 
 $$\theta = \arctan{\frac{0.5}{1}} = 0.463 \text{ rad}$$
 
-$$F_N' = F_N\cos{\theta} = 489 \text{ lbf}\cos{0.463} = \bold{437 \text{ lbf}}$$
+$$F_N' = F_N\cos{\theta} = 489 \text{ lbf}\cos{0.463} = 437 \text{ lbf}$$
 
-$$P' = P\cos{\theta} = 56 \text{ lbf}\cos{0.463} = \bold{50. \text{ lbf}}$$
+$$P' = P\cos{\theta} = 56 \text{ lbf}\cos{0.463} = 50. \text{ lbf}$$
 
 2)
 
@@ -167,24 +167,57 @@ $$AC = AB + BC = 9.73"$$
 
 3) Using the FBD of the slice through AB:
 
-$$ΣM<sub>slice</sub> = -M(x) + F_Nʻ \cdot (1.12"-x) - Pʻ \cdot (9.73-x) =0$$
+$$ΣM_\text{slice} = -M(x) + F_N' \cdot (1.12"-x) - P' \cdot (9.73"-x) =0$$
 
-$$\Rightarrow M(x) = F_Nʻ \cdot (1.12"-x) - Pʻ \cdot (9.73-x), 0"<x<1.12"$$
+$$\Rightarrow M(x) = F_N' \cdot (1.12"-x) - P' \cdot (9.73"-x) \text{ for }0"<x<1.12"$$
 
 Next, using the FBD of the slice through BC:
 
-$$ΣM<sub>slice</sub> = -M(x) - Pʻ \cdot (9.73-x) = 0$$
+$$ΣM_\text{slice} = -M(x) - P' \cdot (9.73"-x) = 0$$
 
-$$\Rightarrow M(x) = - Pʻ \cdot (9.73-x), 1.12"<x<9.73"$$
+$$\Rightarrow M(x) = - P' \cdot (9.73"-x) \text{ for }1.12"<x<9.73"$$
 
-Therefore, we have:
+4) Using the equation $EIy'' = M(x)$, we have:
 
-$$f(x) = \left\{
+$$EIy'' = \left\{
   \begin{array}{ll}
-    0 & x \leq a \\
-    \frac{x-a}{b-a} & a \leq x \leq b \\
-    1 & c \leq x
+    F_N' \cdot (1.12-x) - P' \cdot (9.73-x) & 0<x<1.12 \text{ in} \\
+    - P' \cdot (9.73-x) & 1.12<x<9.73 \text{ in}
   \end{array}
-\right.$$
+\right$$
 
-4) 
+Then, we can integrate this equation twice to get:
+
+$$EIy' = \left\{
+  \begin{array}{ll}
+    F_N' \cdot (1.12x-\frac{1}{2}x^2) - P' \cdot (9.73x-\frac{1}{2}x^2) + c_1 & 0"<x<1.12" \\
+    - P' \cdot (9.73x-\frac{1}{2}x^2) + c_2 & 1.12"<x<9.73"
+  \end{array}
+\right$$
+
+$$EIy = \left\{
+  \begin{array}{ll}
+    F_N' \cdot (0.56x^2-\frac{1}{6}x^3) - P' \cdot (4.86x^2-\frac{1}{6}x^3) + c_1x + c_3 & 0"<x<1.12" \\
+    - P' \cdot (4.86x^2-\frac{1}{6}x^3) + c_2x + c_4 & 1.12<x<9.73"
+  \end{array}
+\right$$
+
+From the pinned support at point A and roller at point B, we can write the boundary conditions $y(x = 0) = 0$ and $y(x = 1.12")= 0$. From the continuity conditions at point B, we also have y(x = 1.12") and y'(x = 1.12") are equal for both pieces of the piecewise function.
+
+BC $y(x = 0) = 0$:
+
+$$0 = 0 - 0 + 0 + c_3 \Rightarrow c_3 = 0$$
+
+BC $y(x = 1.12") = 0$:
+
+$$0 = 437 \text{ lbf} \cdot (0.56x^2-\frac{1}{6}x^3) - 50. \text{ lbf} \cdot (4.86\cdot(1.12)^2-\frac{1}{6}\cdot(1.12)^3) + c_1\cdot(1.12) + 0 \Rightarrow c_1 = 78.3$$
+
+"No Kinks" condition $y_L'(x = 1.12") = y_R'(x = 1.12")$:
+
+$$437 \text{ lbf} \cdot (1.12\cdot(1.12)-\frac{1}{2}\cdot(1.12)^2) - 50. \text{ lbf} \cdot (9.73\cdot(1.12)-\frac{1}{2}\cdot(1.12)^2) + 78.3 = - P' \cdot (9.73\cdot(1.12)-\frac{1}{2}\cdot(1.12)^2) + c_2$$
+
+$$\Rightarrow c_2 = 78.3$$
+
+"No Jumps" condition $y_L(x = 1.12") = y_R(x = 1.12")$:
+
+$$0 = - 50. \text{ lbf} \cdot (4.86\cdot(1.12)^2-\frac{1}{6}\cdot(1.12)^3) + c_2\cdot(1.12) + c_4$$
