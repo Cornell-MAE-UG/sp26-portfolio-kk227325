@@ -119,6 +119,11 @@ Compared to the manual design, this design is significantly smaller (8.7" vs 11.
 
 **Given:**
 
+<ul>
+  <li><b>F<sub>N</sub></b> = Force necessary to break a macadamia nut = <b>222 kgf = 489 lbf</b></li>
+  <li><b>P</b> = Force specifications of linear actuator = <b>56 lbf</b></li>
+</ul>
+
 Now, we will treat the arms as beams that can undergo bending (rather than being rigid). We will use a modified version of the free body diagram drawn in part 2 which:
 <ul>
   <li>assumes the handle to be a straight beam</li>
@@ -142,3 +147,44 @@ Now, we will treat the arms as beams that can undergo bending (rather than being
 </ol>
 
 **Solution:**
+
+1) Using the angle θ as shown in the FBD:
+
+$$\theta = \arctan{\frac{0.5}{1}} = 0.463 \text{ rad}$$
+
+$$F_N' = F_N\cos{\theta} = 489 \text{ lbf}\cos{0.463} = \bold{437 \text{ lbf}}$$
+
+$$P' = P\cos{\theta} = 56 \text{ lbf}\cos{0.463} = \bold{50. \text{ lbf}}$$
+
+2)
+
+<img src="{{ site.baseurl }}/assets/images/macadamia-part3fbdslice.png" width="300" />
+
+Note: lengths were calculated using trigonometry and the value of angle θ from part 1:
+$$AB = 1" \sec{\theta} = 1.12"$$
+$$BC = (8.7-1)" \sec{\theta} = 8.61"$$
+$$AC = AB + BC = 9.73"$$
+
+3) Using the FBD of the slice through AB:
+
+$$ΣM<sub>slice</sub> = -M(x) + F_Nʻ \cdot (1.12"-x) - Pʻ \cdot (9.73-x) =0$$
+
+$$\Rightarrow M(x) = F_Nʻ \cdot (1.12"-x) - Pʻ \cdot (9.73-x), 0"<x<1.12"$$
+
+Next, using the FBD of the slice through BC:
+
+$$ΣM<sub>slice</sub> = -M(x) - Pʻ \cdot (9.73-x) = 0$$
+
+$$\Rightarrow M(x) = - Pʻ \cdot (9.73-x), 1.12"<x<9.73"$$
+
+Therefore, we have:
+
+$$f(x) = \left\{
+  \begin{array}{ll}
+    0 & x \leq a \\
+    \frac{x-a}{b-a} & a \leq x \leq b \\
+    1 & c \leq x
+  \end{array}
+\right.$$
+
+4) 
