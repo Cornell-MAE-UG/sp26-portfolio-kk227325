@@ -161,8 +161,11 @@ $$P' = P\cos{\theta} = 56 \text{ lbf}\cos{0.463} = 50. \text{ lbf}$$
 <img src="{{ site.baseurl }}/assets/images/macadamia-part3fbdslice.png" width="300" />
 
 Note: lengths were calculated using trigonometry and the value of angle θ from part 1:
+
 $$AB = 1" \sec{\theta} = 1.12"$$
+
 $$BC = (8.7-1)" \sec{\theta} = 8.61"$$
+
 $$AC = AB + BC = 9.73"$$
 
 3) Using the FBD of the slice through AB:
@@ -180,11 +183,11 @@ $$\Rightarrow M(x) = - P' \cdot (9.73"-x) \text{  for  }1.12"<x<9.73"$$
 4) Using the equation $EIy'' = M(x)$, we have:
 
 $$EIy'' = \left\{
-  \begin{array}{ll}
-    F_N' \cdot (1.12-x) - P' \cdot (9.73-x) & 0<x<1.12 \text{ in} \\
-    - P' \cdot (9.73-x) & 1.12<x<9.73 \text{ in}
-  \end{array}
-\right$$
+\begin{array}{ll}
+      F_N' \cdot (1.12-x) - P' \cdot (9.73-x) & 0 < x < 1.12 \text{ in} \\
+      -P' \cdot (9.73-x) & 1.12 < x < 9.73 \text{ in}
+\end{array} 
+\right.$$
 
 Then, we can integrate this equation twice to get:
 
@@ -211,12 +214,14 @@ $$0 = 0 - 0 + 0 + c_3 \Rightarrow c_3 = 0$$
 BC $y(x = 1.12") = 0$:
 
 $$0 = 437 \text{ lbf} \cdot (0.56 \cdot 1.12^2-\frac{1}{6} \cdot 1.12^3) - 50. \text{ lbf} \cdot (4.86 \cdot 1.12^2-\frac{1}{6} \cdot 1.12^3)$$
+
 $$ + c_1 \cdot 1.12 + 0 \Rightarrow c_1 = 78.3$$
 
 "No Kinks" condition $y_L'(x = 1.12") = y_R'(x = 1.12")$:
 
 $$437 \text{ lbf} \cdot (1.12 \cdot 1.12-\frac{1}{2} \cdot 1.12^2) - 50. \text{ lbf} \cdot (9.73\cdot 1.12-$$
-$$\frac{1}{2}\cdot 1.12^2) + 78.3 = - P' \cdot (9.73\cdot 1.12-\frac{1}{2} \cdot 1.12^2) + c_2$$
+
+$$\frac{1}{2}\cdot 1.12^2) + 78.3 = - 50. \text{ lbf} \cdot (9.73\cdot 1.12-\frac{1}{2} \cdot 1.12^2) + c_2$$
 
 $$\Rightarrow c_2 = 351.4$$
 
