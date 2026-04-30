@@ -15,7 +15,7 @@ mathjax: true
 
 <figure>
   <p align="center">
-    <img src="{{ site.baseurl }}/assets/images/macadamia-drawing.png" alt="macadamia-drawing" width="400" />
+    <img src="{{ site.baseurl }}/assets/images/2026-macadamia-nut/macadamia-drawing.png" alt="macadamia-drawing" width="400" />
     <figcaption align="center"><b>Figure 1: Overall diagram of nut cracker.</b></figcaption>
   </p>
 </figure>
@@ -30,7 +30,7 @@ Note: The force to break a macadamia nut was found from this source[^1], and P w
 
 <figure>
   <p align="center">
-    <img src="{{ site.baseurl }}/assets/images/macadamia-fbd.png" alt="macadamia-fbd" width="400" />
+    <img src="{{ site.baseurl }}/assets/images/2026-macadamia-nut/macadamia-fbd.png" alt="macadamia-fbd" width="400" />
     <figcaption align="center"><b>Figure 2: Overall free body diagram nut cracker.</b></figcaption>
   </p>
 </figure>
@@ -49,7 +49,7 @@ Note: The force to break a macadamia nut was found from this source[^1], and P w
 1) 
 <figure>
   <p align="center">
-    <img src="{{ site.baseurl }}/assets/images/macadamia-one-arm.png" alt="macadamia-one-arm-fbd" width="300" />
+    <img src="{{ site.baseurl }}/assets/images/2026-macadamia-nut/macadamia-one-arm.png" alt="macadamia-one-arm-fbd" width="300" />
     <figcaption align="center"><b>Figure 3: Free body diagram of one handle.</b></figcaption>
   </p>
 </figure>
@@ -70,7 +70,7 @@ Result:
 
 <figure>
   <p align="center">
-    <img src="{{ site.baseurl }}/assets/images/macadamia-part1complete.png" alt="macadamia-part1complete" width="400" />
+    <img src="{{ site.baseurl }}/assets/images/2026-macadamia-nut/macadamia-part1complete.png" alt="macadamia-part1complete" width="400" />
     <figcaption align="center"><b>Figure 4: Nut cracker design.</b></figcaption>
   </p>
 </figure>
@@ -88,7 +88,7 @@ The size of the nut cracker is quite large (about 1 foot long). On top of that, 
 
 <figure>
   <p align="center">
-    <img src="{{ site.baseurl }}/assets/images/macadamia-linear-actuator.png" alt="nut cracker with linear actuator" width="400" />
+    <img src="{{ site.baseurl }}/assets/images/2026-macadamia-nut/macadamia-linear-actuator.png" alt="nut cracker with linear actuator" width="400" />
     <figcaption align="center"><b>Figure 5: Nut cracker with linear actuator</b></figcaption>
   </p>
 </figure>
@@ -114,7 +114,7 @@ The size of the nut cracker is quite large (about 1 foot long). On top of that, 
 
 <figure>
   <p align="center">
-    <img src="{{ site.baseurl }}/assets/images/macadamia-one-arm.png" alt="macadamia-one-arm-fbd" width="300" />
+    <img src="{{ site.baseurl }}/assets/images/2026-macadamia-nut/macadamia-one-arm.png" alt="macadamia-one-arm-fbd" width="300" />
     <figcaption align="center"><b>Figure 3: Free body diagram of one handle. (Reproduced from Figure 3)</b></figcaption>
   </p>
 </figure>
@@ -132,7 +132,7 @@ $$\Rightarrow a : b = 1 : 8.7$$
 
 <figure>
   <p align="center">
-    <img src="{{ site.baseurl }}/assets/images/macadamia-part2complete-one-arm.png" alt="macadamia-part2-one-arm" width="400" />
+    <img src="{{ site.baseurl }}/assets/images/2026-macadamia-nut/macadamia-part2complete-one-arm.png" alt="macadamia-part2-one-arm" width="400" />
     <figcaption align="center"><b>Figure 6: Complete diagram of one arm.</b></figcaption>
   </p>
 </figure>
@@ -141,7 +141,7 @@ Result:
 
 <figure>
   <p align="center">
-    <img src="{{ site.baseurl }}/assets/images/macadamia-part2complete.png" alt="macadamia-part2complete" width="400" />
+    <img src="{{ site.baseurl }}/assets/images/2026-macadamia-nut/macadamia-part2complete.png" alt="macadamia-part2complete" width="400" />
     <figcaption align="center"><b>Figure 7: Nut cracker design with linear actuator.</b></figcaption>
   </p>
 </figure>
@@ -171,7 +171,7 @@ Now, we will treat the arms as beams that can undergo bending (rather than being
 
 <figure>
   <p align="center">
-    <img src="{{ site.baseurl }}/assets/images/macadamia-part3fbd.png" alt="macadamia-part3fbd" width="300" />
+    <img src="{{ site.baseurl }}/assets/images/2026-macadamia-nut/macadamia-part3fbd.png" alt="macadamia-part3fbd" width="300" />
     <figcaption align="center"><b>Figure 8: New free body diagram of one arm.</b></figcaption>
   </p>
 </figure>
@@ -202,7 +202,7 @@ $$P' = P\cos{\theta} = 56  \text{ lbf} \cdot \cos{0.463} = 50. \text{ lbf}$$
 
 <figure>
   <p align="center">
-    <img src="{{ site.baseurl }}/assets/images/macadamia-part3fbdslice.png" alt="macadamia-part3fbdslice" width="300" />
+    <img src="{{ site.baseurl }}/assets/images/2026-macadamia-nut/macadamia-part3fbdslice.png" alt="macadamia-part3fbdslice" width="300" />
     <figcaption align="center"><b>Figure 9: Free body diagram of handle at slices through AB and BC.</b></figcaption>
   </p>
 </figure>
@@ -341,7 +341,7 @@ It makes sense that the largest deflection of the handle occurs at the free end 
 
 <figure>
   <p align="center">
-    <img src="{{ site.baseurl }}/assets/images/macadamia-part3-reflection.png" alt="macadamia-part3-reflection" width="300" />
+    <img src="{{ site.baseurl }}/assets/images/2026-macadamia-nut/macadamia-part3-reflection.png" alt="macadamia-part3-reflection" width="300" />
     <figcaption align="center"><b>Figure 10: Free body diagram of handle at slices through AB and BC.</b></figcaption>
   </p>
 </figure>
@@ -436,7 +436,7 @@ For the handle design, we need a geometry with area concentrated far from the ne
 
 <figure>
   <p align="center">
-    <img src="{{ site.baseurl }}/assets/images/macadamia-part4-ibeam.png" alt="macadamia-part4-ibeam" width="300" />
+    <img src="{{ site.baseurl }}/assets/images/2026-macadamia-nut/macadamia-part4-ibeam.png" alt="macadamia-part4-ibeam" width="300" />
     <figcaption align="center"><b>Figure 11: Cross-section design.</b></figcaption>
   </p>
 </figure>
@@ -457,7 +457,7 @@ Our nutcracker handle will be made of aluminum 6061-T6 with the following cross-
 
 <figure>
   <p align="center">
-    <img src="{{ site.baseurl }}/assets/images/macadamia-part4complete.png" alt="macadamia-part4complete" width="300" />
+    <img src="{{ site.baseurl }}/assets/images/2026-macadamia-nut/macadamia-part4complete.png" alt="macadamia-part4complete" width="300" />
     <figcaption align="center"><b>Figure 12: I-beam design.</b></figcaption>
   </p>
 </figure>
