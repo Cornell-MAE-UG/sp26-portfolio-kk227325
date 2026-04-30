@@ -374,7 +374,8 @@ Cross-section and material of beam such that the vertical elastic deflection is 
 
 <ol type="1">
   <li>Use maximum deflection requirement to find $EI$, the required flexual rigidity</li>
-  <li>Find a material with a high E to mass ratio and a wide-flanged I-beam shape that fits requirements</li>
+  <li>Find a material with a high E to mass ratio</li>
+  <li>Find a wide-flanged I-beam shape that meets the required rigity</li>
 </ol>
 
 **Solution:**
@@ -385,4 +386,90 @@ $$y(x = 9.73 \text{ in}) = -0.02\cdot9.73 \text{ in} = \frac{1}{EI} \left[- 50' 
 
 Solving for EI, we get
 
-$$EI = 61700 \text{ lbf•in}^2$$
+$$EI = 61700 \text{ lbf}\cdot\text{in}^2$$
+
+2) Table 2 shows a summary of some common materials[^3] used in nut crackers.
+
+**Table 2: Properties of common materials for nut crackers[^4]**
+
+<table width="30%">
+  <thead>
+    <tr>
+      <th align="center">Material</th>
+      <th align="center">Specific Weight (lb/in<sup>3</sup>)</th>
+      <th align="center">Young's Modulus E ($10^6$ psi)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">Steel, stainless, AISI 302</td>
+      <td align="center">0.286</td>
+      <td align="center">28</td>
+    </tr>
+    <tr>
+      <td align="center">Aluminum 6061-T6</td>
+      <td align="center">0.098</td>
+      <td align="center">10.1</td>
+    </tr>
+    <tr>
+      <td align="center">Cast Iron, malleable (2% C, 1% Si, ASTM A-47)</td>
+      <td align="center">0.264</td>
+      <td align="center">24</td>
+    </tr>
+    <tr>
+      <td align="center">Yellow Brass (65% Cu, 35% Zn)</td>
+      <td align="center">0.306</td>
+      <td align="center">15</td>
+    </tr>
+    <tr>
+      <td align="center">Timber, Red oak</td>
+      <td align="center">0.024</td>
+      <td align="center">1.8</td>
+    </tr>
+  </tbody>
+</table>
+
+[^3] Kids Lesson Two of the Nutcracker History from the Nutcracker Museum in Leavenworth. (n.d.). Retrieved April 30, 2026, from https://kidslovenutcrackers.com/lessons_2.htm
+[^4] Beer, F. P. (2020). Statics and Mechanics of Materials (3rd ed.). McGraw-Hill Higher Education (US). https://cornellstore-bookshelf.vitalsource.com/books/9781260446463
+
+Since we want to maximize mass, we want the highest ratio of E to specific weight. Out of the options in the table, we see that the aluminum has the highest stiffness to mass ratio of $\frac{10.1}{0.098} = 103$, so we will choose aluminum for the nutcracker material.
+
+3) Since $E_\text{al} = 10.1 \times 10^6 \text{ psi}$, the required moment of inertia I for the cross-section geometry is:
+
+$$\frac{61700 \text{ lbf}\cdot\text{in}^2}{10.1 \times 10^6 \text{ psi}} = 0.00611 \text{ in}^4$$
+
+For the handle design, we need a geometry with area concentrated far from the neutral axis, but we also cannot have the cross-section too tall, as this would interfere with our physical ability to crack nuts. To accomplish both goals, we will set the height to width ratio of the handle to be 2:1. Additionally, we will set the web thickness to be 1/100 of the height and a 2:1 ratio between the flange thickness and web thickness, as denoted in the figure below.
+
+<figure>
+  <p align="center">
+    <img src="{{ site.baseurl }}/assets/images/macadamia-part4-ibeam.png" alt="macadamia-part4-ibeam" width="300" />
+    <figcaption align="center"><b>Figure 11: Cross-section design.</b></figcaption>
+  </p>
+</figure>
+
+Next, we will calculate the moment of inertia of this cross-section by splitting the geometry into three rectangles and using $I_\text{rect}=\frac{1}{12}bh^3$ and the parallel axis theorem $I' = I + Ad^2$.
+
+$$I = \frac{1}{12}\cdot0.02b\cdot(1.92b)^3 + 2 \left( \frac{1}{12}\cdot b \cdot(0.04b)^3 + b \cdot 0.04b \cdot (0.98b)^2 \right)$$
+
+$$\Rightarrow I = 0.886b^4$$
+
+To meet our required I, the minimum allowable value for b is:
+
+$$I = 0.886b^4 = 0.00611 \text{ in}^4 \Rightarrow b = 0.512 \text{ in}$$
+
+Result:
+
+Our nutcracker handle will be made of aluminum 6061-T6 with the following cross-section geometry:
+
+<figure>
+  <p align="center">
+    <img src="{{ site.baseurl }}/assets/images/macadamia-part4complete.png" alt="macadamia-part4complete" width="300" />
+    <figcaption align="center"><b>Figure 12: I-beam design.</b></figcaption>
+  </p>
+</figure>
+
+**Reflection:**
+
+The resulting cross-section geometry of approximately 0.5" x 1" is a reasonable size for a human hand to grip. Moreover, the material (aluminum) is corrosion-resistant and durable, making it an excellent choice for repeated stress and household use.[^5]
+
+[^5] boansi. (2026, March 11). 6061 T6 Aluminum: Yield Strength, Density, Thermal Conductivity & Flat Bar Guide - BONACE. https://www.hardwarecustom.com/6061-t6-aluminum/
