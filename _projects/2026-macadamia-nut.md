@@ -212,31 +212,31 @@ $$P' = P\cos{\theta} = 56 \text{ lbf}\cos{0.463} = 50. \text{ lbf}$$
 
 Note: lengths were calculated using trigonometry and the value of angle θ from part 1:
 
-$$AB = 1" \sec{\theta} = 1.12"$$
+$$AB = 1 \sec{\theta} = 1.12 \text{ in}$$
 
-$$BC = (8.7-1)" \sec{\theta} = 8.61"$$
+$$BC = (8.7-1) \sec{\theta} = 8.61 \text{ in}$$
 
-$$AC = AB + BC = 9.73"$$
+$$AC = AB + BC = 9.73 \text{ in}$$
 
 3) Using the FBD of the slice through AB:
 
-$$ΣM_\text{slice} = -M(x) + F_N' \cdot (1.12"-x) - P' \cdot (9.73"-x) =0$$
+$$ΣM_\text{slice} = -M(x) + F_N' \cdot (1.12-x) - P' \cdot (9.73-x) =0$$
 
-$$\Rightarrow M(x) = F_N' \cdot (1.12"-x) - P' \cdot (9.73"-x) \text{  for  }0"<x<1.12"$$
+$$\Rightarrow M(x) = F_N' \cdot (1.12-x) - P' \cdot (9.73-x) \text{  for  } 0 \text{ in} < x <1.12 \text{ in}$$
 
 Next, using the FBD of the slice through BC:
 
-$$ΣM_\text{slice} = -M(x) - P' \cdot (9.73"-x) = 0$$
+$$ΣM_\text{slice} = -M(x) - P' \cdot (9.73-x) = 0$$
 
-$$\Rightarrow M(x) = - P' \cdot (9.73"-x) \text{  for  }1.12"<x<9.73"$$
+$$\Rightarrow M(x) = - P' \cdot (9.73-x) \text{  for  } 1.12 \text{ in} < x <9.73 \text{ in}$$
 
 4) Using the equation $EIy'' = M(x)$, we have:
 
 $$
 EIy'' = \left\{
 \begin{array}{ll}
-      F_N' \cdot (1.12-x) - P' \cdot (9.73-x) & 0 < x < 1.12 \text{ in} \\
-      -P' \cdot (9.73-x) & 1.12 < x < 9.73 \text{ in}
+      F_N' \cdot (1.12-x) - P' \cdot (9.73-x) & 0 \text{ in} < x < 1.12 \text{ in} \\
+      -P' \cdot (9.73-x) & 1.12 \text{ in}< x < 9.73 \text{ in}
 \end{array} 
 \right.
 $$
@@ -246,8 +246,8 @@ Then, we can integrate this equation twice to get:
 $$
 EIy' = \left\{
 \begin{array}{ll}
-      F_N' \cdot (1.12x-\frac{1}{2}x^2) - P' \cdot (9.73x-\frac{1}{2}x^2) + c_1 & 0 < x < 1.12 \text{ in} \\
-      - P' \cdot (9.73x-\frac{1}{2}x^2) + c_2 & 1.12 < x < 9.73 \text{ in}
+      F_N' \cdot (1.12x-\frac{1}{2}x^2) - P' \cdot (9.73x-\frac{1}{2}x^2) + c_1 & 0 \text{ in} < x < 1.12 \text{ in} \\
+      - P' \cdot (9.73x-\frac{1}{2}x^2) + c_2 & 1.12 \text{ in}< x < 9.73 \text{ in}
 \end{array}
 \right.
 $$
@@ -255,25 +255,25 @@ $$
 $$
 EIy = \left\{
 \begin{array}{ll}
-      F_N' \cdot (0.56x^2-\frac{1}{6}x^3) - P' \cdot (4.86x^2-\frac{1}{6}x^3) + c_1x + c_3 & 0 < x < 1.12 \text{ in} \\
-      - P' \cdot (4.86x^2-\frac{1}{6}x^3) + c_2x + c_4 & 1.12 < x < 9.73 \text{ in}
+      F_N' \cdot (0.56x^2-\frac{1}{6}x^3) - P' \cdot (4.86x^2-\frac{1}{6}x^3) + c_1x + c_3 & 0 \text{ in} < x < 1.12 \text{ in} \\
+      - P' \cdot (4.86x^2-\frac{1}{6}x^3) + c_2x + c_4 & 1.12 \text{ in}< x < 9.73 \text{ in}
 \end{array}
 \right.
 $$
 
-From the pinned support at point A and roller at point B, we can write the boundary conditions $y(x = 0) = 0$ and $y(x = 1.12")= 0$. From the continuity conditions at point B, we also have y(x = 1.12") and y'(x = 1.12") are equal for both pieces of the piecewise function.
+From the pinned support at point A and roller at point B, we can write the boundary conditions $y(x = 0) = 0$ and $y(x = 1.12 \text{ in})= 0$. From the continuity conditions at point B, we also have y(x = 1.12") and y'(x = 1.12") are equal for both pieces of the piecewise function.
 
-BC $y(x = 0) = 0$:
+BC $y(x = 0 \text{ in}) = 0$:
 
 $$0 = 0 - 0 + 0 + c_3 \Rightarrow c_3 = 0$$
 
-BC $y(x = 1.12") = 0$:
+BC $y(x = 1.12 \text{ in}) = 0$:
 
 $$0 = 437 \cdot (0.56 \cdot 1.12^2-\frac{1}{6} \cdot 1.12^3) - 50. \cdot (4.86 \cdot 1.12^2-\frac{1}{6} \cdot 1.12^3)$$
 
 $$ + c_1 \cdot 1.12 + 0 \Rightarrow c_1 = 78.3$$
 
-"No Kinks" condition $y_L'(x = 1.12") = y_R'(x = 1.12")$:
+"No Kinks" condition $y_L'(x = 1.12\text{ in}) = y_R'(x = 1.12\text{ in})$:
 
 $$437 \cdot (1.12 \cdot 1.12-\frac{1}{2} \cdot 1.12^2) - 50. \cdot (9.73\cdot 1.12- \frac{1}{2}\cdot 1.12^2) + 78.3 $$
 
@@ -281,7 +281,7 @@ $$= - 50. \cdot (9.73\cdot 1.12-\frac{1}{2} \cdot 1.12^2) + c_2$$
 
 $$\Rightarrow c_2 = 351.4$$
 
-"No Jumps" condition $y_L(x = 1.12") = y_R(x = 1.12")$:
+"No Jumps" condition $y_L(x = 1.12\text{ in}) = y_R(x = 1.12\text{ in})$:
 
 $$0 = - 50. \cdot (4.86 \cdot 1.12^2-\frac{1}{6} \cdot 1.12^3) + 351.4 \cdot 1.12 + c_4$$
 
@@ -313,17 +313,13 @@ Solving, we find that the only solution in the range [0, 9.73] is $x = 0.64 \tex
 
 Plugging in the critical point x = 0.64" and endpoints x = 0" and x = 9.73" into the equation for y(x), we get:
 
-<p align="center"><b>Table 1: Magnitude of deflection at critical points</b></p>
-
-<div align="center">
+**Table 1: Magnitude of deflection at critical points**
 
 | x (in) | y(x) (in) |
 | :---: | :---: |
 | 0 | 0 |
 | 0.64 | $\frac{33.9}{EI}$ |
 | 9.73 | $\frac{-12000}{EI}$ |
-
-</div>
 
 The value of x that yields the largest magnitude of deflection is at x = <b>9.73 in</b>.
 
