@@ -290,8 +290,8 @@ So, we have:
 $$
 y(x) = \left\{
 \begin{array}{ll}
-      \frac{1}{EI} (F_N' \cdot (0.56x^2-\frac{1}{6}x^3) - P' \cdot (4.86x^2-\frac{1}{6}x^3) + 78.3x) & 0 < x < 1.12 \text{ in} \\
-      \frac{1}{EI} (- P' \cdot (4.86x^2-\frac{1}{6}x^3) + 351.4x - 101) & 1.12 < x < 9.73 \text{ in}
+      \frac{1}{EI} \left[F_N' \cdot (0.56x^2-\frac{1}{6}x^3) - P' \cdot (4.86x^2-\frac{1}{6}x^3) + 78.3x\right] & 0 < x < 1.12 \text{ in} \\
+      \frac{1}{EI} \left[- P' \cdot (4.86x^2-\frac{1}{6}x^3) + 351.4x - 101\right] & 1.12 < x < 9.73 \text{ in}
 \end{array}
 \right.
 $$
@@ -355,3 +355,34 @@ It makes sense that the largest deflection of the handle occurs at the free end 
 
 **Given:**
 
+Deflection of beam y(x), with known maximum absolute vertical deflection at x = <b>9.73 in</b>.
+
+$$
+y(x) = \left\{
+\begin{array}{ll}
+      \frac{1}{EI} \left[F_N' \cdot (0.56x^2-\frac{1}{6}x^3) - P' \cdot (4.86x^2-\frac{1}{6}x^3) + 78.3x\right] & 0 < x < 1.12 \text{ in} \\
+      \frac{1}{EI} \left[- P' \cdot (4.86x^2-\frac{1}{6}x^3) + 351.4x - 101\right] & 1.12 < x < 9.73 \text{ in}
+\end{array}
+\right.
+$$
+
+**Find:**
+
+Cross-section and material of beam such that the vertical elastic deflection is below 2% of its length and is the most mass-efficient possible.
+
+**Plan:**
+
+<ol type="1">
+  <li>Use maximum deflection requirement to find $EI$, the required flexual rigidity</li>
+  <li>Find a material with a high E to mass ratio and a wide-flanged I-beam shape that fits requirements</li>
+</ol>
+
+**Solution:**
+
+1) The maximum vertical elastic deflection is:
+
+$$y(x = 9.73 \text{ in}) = -0.02\cdot9.73 \text{ in} = \frac{1}{EI} \left[- 50' \cdot (4.86\cdot 9.73^2-\frac{1}{6}\cdot 9.73^3) + 351.4\cdot 9.73 - 101\right]$$
+
+Solving for EI, we get
+
+$$EI = 61700 \text{ lbf•in}^2$$
