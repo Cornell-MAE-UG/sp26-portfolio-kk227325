@@ -11,4 +11,4 @@ title: <Your Name>
  
 My name is {{ site.name }}, and I am a student in Mechanical Engineering at the Cornell Duffield College of Engineering, Cornell University.
 
-Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
+Take a look at <a href="{{ "/readme/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
