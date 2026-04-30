@@ -320,8 +320,8 @@ Plugging in the critical point x = 0.64" and endpoints x = 0" and x = 9.73" into
 | x (in) | y(x) (in) |
 | :---: | :---: |
 | 0 | 0 |
-| 0.64 | $$\frac{33.9}{EI}$$ |
-| 9.73 | $$\frac{-12000}{EI}$$ |
+| 0.64 | $\frac{33.9}{EI}$ |
+| 9.73 | $\frac{-12000}{EI}$ |
 
 </div>
 
