@@ -468,6 +468,6 @@ The resulting cross-section geometry of approximately 0.5" x 1" is a reasonable 
 
 [^1]: Bailey, A. (2025, November 10). *How do you compare to the average grip strength?* Everyday Health. https://www.everydayhealth.com/workouts-activities/average-grip-strength-by-age-charts-how-do-you-compare/
 [^2]: Schrauf, C., Huber, L., & Visalberghi, E. (2008). Do capuchin monkeys use weight to select hammer tools? *Anim Cogn* 11, 413–422. https://doi.org/10.1007/s10071-007-0131-2
-[^3] Kids Lesson Two of the Nutcracker History from the Nutcracker Museum in Leavenworth. (n.d.). Retrieved April 30, 2026, from https://kidslovenutcrackers.com/lessons_2.htm
-[^4] Beer, F. P. (2020). Statics and Mechanics of Materials (3rd ed.). McGraw-Hill Higher Education (US). https://cornellstore-bookshelf.vitalsource.com/books/9781260446463
-[^5] boansi. (2026, March 11). 6061 T6 Aluminum: Yield Strength, Density, Thermal Conductivity & Flat Bar Guide - BONACE. https://www.hardwarecustom.com/6061-t6-aluminum/
+[^3]: Kids Lesson Two of the Nutcracker History from the Nutcracker Museum in Leavenworth. (n.d.). Retrieved April 30, 2026, from https://kidslovenutcrackers.com/lessons_2.htm
+[^4]: Beer, F. P. (2020). Statics and Mechanics of Materials (3rd ed.). McGraw-Hill Higher Education (US). https://cornellstore-bookshelf.vitalsource.com/books/9781260446463
+[^5]: boansi. (2026, March 11). 6061 T6 Aluminum: Yield Strength, Density, Thermal Conductivity & Flat Bar Guide - BONACE. https://www.hardwarecustom.com/6061-t6-aluminum/
