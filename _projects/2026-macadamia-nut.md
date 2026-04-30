@@ -197,9 +197,9 @@ Now, we will treat the arms as beams that can undergo bending (rather than being
 
 $$\theta = \arctan{\frac{0.5}{1}} = 0.463 \text{ rad}$$
 
-$$F_N' = F_N\cos{\theta} = 489 \text{ lbf}\cos{0.463} = 437 \text{ lbf}$$
+$$F_N' = F_N\cos{\theta} = 489 \cos{0.463} = 437 \text{ lbf}$$
 
-$$P' = P\cos{\theta} = 56 \text{ lbf}\cos{0.463} = 50. \text{ lbf}$$
+$$P' = P\cos{\theta} = 56 \cos{0.463} = 50. \text{ lbf}$$
 
 2)
 
@@ -263,27 +263,25 @@ $$
 
 From the pinned support at point A and roller at point B, we can write the boundary conditions $y(x = 0) = 0$ and $y(x = 1.12 \text{ in})= 0$. From the continuity conditions at point B, we also have y(x = 1.12") and y'(x = 1.12") are equal for both pieces of the piecewise function.
 
-BC $y(x = 0 \text{ in}) = 0$:
+* BC  $y(x = 0 \text{ in}) = 0$:
 
-$$0 = 0 - 0 + 0 + c_3 \Rightarrow c_3 = 0$$
+$$0 = 0 - 0 + 0 + c_3$$
 
-BC $y(x = 1.12 \text{ in}) = 0$:
+$$\Rightarrow c_3 = 0$$
 
-$$0 = 437 \cdot (0.56 \cdot 1.12^2-\frac{1}{6} \cdot 1.12^3) - 50. \cdot (4.86 \cdot 1.12^2-\frac{1}{6} \cdot 1.12^3)$$
+* BC  $y(x = 1.12 \text{ in}) = 0$:
 
-$$ + c_1 \cdot 1.12 + 0 \Rightarrow c_1 = 78.3$$
+$$0 = 437 \cdot (0.56 \cdot 1.12^2-\frac{1}{6} \cdot 1.12^3) - 50 \cdot (4.86 \cdot 1.12^2-\frac{1}{6} \cdot 1.12^3) + c_1 \cdot 1.12 + 0 \Rightarrow c_1 = 78.3$$
 
-"No Kinks" condition $y_L'(x = 1.12\text{ in}) = y_R'(x = 1.12\text{ in})$:
+* "No kinks" condition  $y_L'(x = 1.12\text{ in}) = y_R'(x = 1.12\text{ in})$:
 
-$$437 \cdot (1.12 \cdot 1.12-\frac{1}{2} \cdot 1.12^2) - 50. \cdot (9.73\cdot 1.12- \frac{1}{2}\cdot 1.12^2) + 78.3 $$
-
-$$= - 50. \cdot (9.73\cdot 1.12-\frac{1}{2} \cdot 1.12^2) + c_2$$
+$$437 \cdot (1.12 \cdot 1.12-\frac{1}{2} \cdot 1.12^2) - 50 \cdot (9.73\cdot 1.12- \frac{1}{2}\cdot 1.12^2) + 78.3 = - 50 \cdot (9.73\cdot 1.12-\frac{1}{2} \cdot 1.12^2) + c_2$$
 
 $$\Rightarrow c_2 = 351.4$$
 
-"No Jumps" condition $y_L(x = 1.12\text{ in}) = y_R(x = 1.12\text{ in})$:
+* "No jumps"  condition $y_L(x = 1.12\text{ in}) = y_R(x = 1.12\text{ in})$:
 
-$$0 = - 50. \cdot (4.86 \cdot 1.12^2-\frac{1}{6} \cdot 1.12^3) + 351.4 \cdot 1.12 + c_4$$
+$$0 = - 50 \cdot (4.86 \cdot 1.12^2-\frac{1}{6} \cdot 1.12^3) + 351.4 \cdot 1.12 + c_4$$
 
 $$\Rightarrow c_4 = -101$$
 
@@ -315,11 +313,13 @@ Plugging in the critical point x = 0.64" and endpoints x = 0" and x = 9.73" into
 
 **Table 1: Magnitude of deflection at critical points**
 
+
 | x (in) | y(x) (in) |
 | :---: | :---: |
 | 0 | 0 |
 | 0.64 | $\frac{33.9}{EI}$ |
 | 9.73 | $\frac{-12000}{EI}$ |
+
 
 The value of x that yields the largest magnitude of deflection is at x = <b>9.73 in</b>.
 
