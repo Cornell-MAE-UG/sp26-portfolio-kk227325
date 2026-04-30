@@ -14,7 +14,7 @@ mathjax: true
 **Given:**
 
 <figure>
-  <p>
+  <p align="center">
     <img src="{{ site.baseurl }}/assets/images/macadamia-drawing.png" alt="macadamia-drawing" width="400" />
     <figcaption align="center"><b>Figure 1: Overall diagram of nut cracker.</b></figcaption>
   </p>
@@ -32,7 +32,7 @@ Note: The force to break a macadamia nut was found from this source[^1], and P w
 [^2]: Schrauf, C., Huber, L., & Visalberghi, E. (2008). Do capuchin monkeys use weight to select hammer tools? *Anim Cogn* 11, 413–422. https://doi.org/10.1007/s10071-007-0131-2
 
 <figure>
-  <p>
+  <p align="center">
     <img src="{{ site.baseurl }}/assets/images/macadamia-fbd.png" alt="macadamia-fbd" width="400" />
     <figcaption align="center"><b>Figure 2: Overall free body diagram nut cracker.</b></figcaption>
   </p>
@@ -51,7 +51,7 @@ Note: The force to break a macadamia nut was found from this source[^1], and P w
 
 1) 
 <figure>
-  <p>
+  <p align="center">
     <img src="{{ site.baseurl }}/assets/images/macadamia-one-arm.png" alt="macadamia-one-arm-fbd" width="300" />
     <figcaption align="center"><b>Figure 3: Free body diagram of one handle.</b></figcaption>
   </p>
@@ -90,7 +90,7 @@ The size of the nut cracker is quite large (about 1 foot long). On top of that, 
 **Given:** 
 
 <figure>
-  <p>
+  <p align="center">
     <img src="{{ site.baseurl }}/assets/images/macadamia-linear-actuator.png" alt="nut cracker with linear actuator" width="400" />
     <figcaption align="center"><b>Figure 5: Nut cracker with linear actuator</b></figcaption>
   </p>
@@ -116,7 +116,7 @@ The size of the nut cracker is quite large (about 1 foot long). On top of that, 
 1)
 
 <figure>
-  <p>
+  <p align="center">
     <img src="{{ site.baseurl }}/assets/images/macadamia-one-arm.png" alt="macadamia-one-arm-fbd" width="300" />
     <figcaption align="center"><b>Figure 3: Free body diagram of one handle. (Reproduced from Figure 3)</b></figcaption>
   </p>
@@ -134,7 +134,7 @@ $$\Rightarrow a : b = 1 : 8.7$$
 3) Just as before, we can let a = d = 1 in, which makes b = 8.7 in.
 
 <figure>
-  <p>
+  <p align="center">
     <img src="{{ site.baseurl }}/assets/images/macadamia-part2complete-one-arm.png" alt="macadamia-part2-one-arm" width="400" />
     <figcaption align="center"><b>Figure 6: Complete diagram of one arm.</b></figcaption>
   </p>
@@ -173,7 +173,7 @@ Now, we will treat the arms as beams that can undergo bending (rather than being
 </ul>
 
 <figure>
-  <p>
+  <p align="center">
     <img src="{{ site.baseurl }}/assets/images/macadamia-part3fbd.png" alt="macadamia-part3fbd" width="300" />
     <figcaption align="center"><b>Figure 8: New free body diagram of one arm.</b></figcaption>
   </p>
@@ -204,7 +204,7 @@ $$P' = P\cos{\theta} = 56 \text{ lbf}\cos{0.463} = 50. \text{ lbf}$$
 2)
 
 <figure>
-  <p>
+  <p align="center">
     <img src="{{ site.baseurl }}/assets/images/macadamia-part3fbdslice.png" alt="macadamia-part3fbdslice" width="300" />
     <figcaption align="center"><b>Figure 9: Free body diagram of handle at slices through AB and BC.</b></figcaption>
   </p>
@@ -315,9 +315,10 @@ Plugging in the critical point x = 0.64" and endpoints x = 0" and x = 9.73" into
 
 <div align="center">
   <b>Table 1: Magnitude of deflection at critical points</b>
+  <br><br>
 
 | x (in) | y(x) (in) |
-| :--- | :--- |
+| :---: | :---: |
 | 0 | 0 |
 | 0.64 | $\frac{33.9}{EI}$ |
 | 9.73 | $\frac{-12000}{EI}$ |
@@ -331,8 +332,15 @@ The value of x that yields the largest magnitude of deflection is at x = <b>9.73
 It makes sense that the largest deflection of the handle occurs at the free end which is subjected to the downward applied force P. In fact, the sign and relative magnitudes from table 1 of the small positive (upward) deflection at x = 0.64" and the much larger negative (downward) deflection at x = 9.73" match my intuition of how the handle should bend, as shown in the image below.
 
 <figure>
-  <p>
+  <p align="center">
     <img src="{{ site.baseurl }}/assets/images/macadamia-part3-reflection.png" alt="macadamia-part3-reflection" width="300" />
     <figcaption align="center"><b>Figure 10: Free body diagram of handle at slices through AB and BC.</b></figcaption>
   </p>
 </figure>
+
+***
+
+**Part 4: Handle design**
+
+**Given:**
+
