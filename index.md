@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name>
+title: Keisuke Kwong - Home
 ---
 
 ## About Me

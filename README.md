@@ -1,6 +1,7 @@
 ---
+layout: default
+title: Keisuke Kwong - MAE Portfolio
 permalink: /readme/
-layout: page
 ---
 
 # MAE Portfolio
