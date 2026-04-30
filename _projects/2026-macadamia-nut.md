@@ -313,15 +313,15 @@ Solving, we find that the only solution in the range [0, 9.73] is $x = 0.64 \tex
 
 Plugging in the critical point x = 0.64" and endpoints x = 0" and x = 9.73" into the equation for y(x), we get:
 
+<p align="center"><b>Table 1: Magnitude of deflection at critical points</b></p>
+
 <div align="center">
-  <b>Table 1: Magnitude of deflection at critical points</b>
-  <br><br>
 
 | x (in) | y(x) (in) |
 | :---: | :---: |
 | 0 | 0 |
-| 0.64 | $\frac{33.9}{EI}$ |
-| 9.73 | $\frac{-12000}{EI}$ |
+| 0.64 | $$\frac{33.9}{EI}$$ |
+| 9.73 | $$\frac{-12000}{EI}$$ |
 
 </div>
 
