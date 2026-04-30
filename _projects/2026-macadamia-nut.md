@@ -195,11 +195,11 @@ Now, we will treat the arms as beams that can undergo bending (rather than being
 
 1) Using the angle θ as shown in the FBD:
 
-$$\theta = \arctan{\frac{0.5}{1}} = 0.463 \text{ rad}$$
+$$\theta = \arctan{\frac{0.5 \text{ in}}{1 \text{ in}}} = 0.463 \text{ rad}$$
 
-$$F_N' = F_N\cos{\theta} = 489 \cos{0.463} = 437 \text{ lbf}$$
+$$F_N' = F_N\cos{\theta} = 489  \text{ lbf} \cdot \cos{0.463} = 437 \text{ lbf}$$
 
-$$P' = P\cos{\theta} = 56 \cos{0.463} = 50. \text{ lbf}$$
+$$P' = P\cos{\theta} = 56  \text{ lbf} \cdot \cos{0.463} = 50. \text{ lbf}$$
 
 2)
 
@@ -212,23 +212,23 @@ $$P' = P\cos{\theta} = 56 \cos{0.463} = 50. \text{ lbf}$$
 
 Note: lengths were calculated using trigonometry and the value of angle θ from part 1:
 
-$$AB = 1 \sec{\theta} = 1.12 \text{ in}$$
+$$AB = 1 \text{ in} \cdot \sec{\theta} = 1.12 \text{ in}$$
 
-$$BC = (8.7-1) \sec{\theta} = 8.61 \text{ in}$$
+$$BC = (8.7-1) \text{ in} \cdot \sec{\theta} = 8.61 \text{ in}$$
 
-$$AC = AB + BC = 9.73 \text{ in}$$
+$$AC = AB + BC = 1.12 \text{ in} + 8.61 \text{ in} = 9.73 \text{ in}$$
 
 3) Using the FBD of the slice through AB:
 
-$$ΣM_\text{slice} = -M(x) + F_N' \cdot (1.12-x) - P' \cdot (9.73-x) =0$$
+$$ΣM_\text{slice} = -M(x) + F_N' \cdot (1.12 \text{ in} - x) - P' \cdot (9.73 \text{ in} - x) =0$$
 
-$$\Rightarrow M(x) = F_N' \cdot (1.12-x) - P' \cdot (9.73-x) \text{  for  } 0 \text{ in} < x <1.12 \text{ in}$$
+$$\Rightarrow M(x) = F_N' \cdot (1.12 \text{ in} - x) - P' \cdot (9.73 \text{ in} - x) \text{  for  } 0 \text{ in} < x <1.12 \text{ in}$$
 
 Next, using the FBD of the slice through BC:
 
-$$ΣM_\text{slice} = -M(x) - P' \cdot (9.73-x) = 0$$
+$$ΣM_\text{slice} = -M(x) - P' \cdot (9.73 \text{ in} - x) = 0$$
 
-$$\Rightarrow M(x) = - P' \cdot (9.73-x) \text{  for  } 1.12 \text{ in} < x <9.73 \text{ in}$$
+$$\Rightarrow M(x) = - P' \cdot (9.73 \text{ in} - x) \text{  for  } 1.12 \text{ in} < x <9.73 \text{ in}$$
 
 4) Using the equation $EIy'' = M(x)$, we have:
 
@@ -313,13 +313,28 @@ Plugging in the critical point x = 0.64" and endpoints x = 0" and x = 9.73" into
 
 **Table 1: Magnitude of deflection at critical points**
 
-
-| x (in) | y(x) (in) |
-| :---: | :---: |
-| 0 | 0 |
-| 0.64 | $\frac{33.9}{EI}$ |
-| 9.73 | $\frac{-12000}{EI}$ |
-
+<table width="30%">
+  <thead>
+    <tr>
+      <th align="center">x (in)</th>
+      <th align="center">y(x) (in)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">0</td>
+      <td align="center">0</td>
+    </tr>
+    <tr>
+      <td align="center">0.64</td>
+      <td align="center">$$\frac{33.9}{EI}$$</td>
+    </tr>
+    <tr>
+      <td align="center">9.73</td>
+      <td align="center">$$\frac{-12000}{EI}$$</td>
+    </tr>
+  </tbody>
+</table>
 
 The value of x that yields the largest magnitude of deflection is at x = <b>9.73 in</b>.
 
