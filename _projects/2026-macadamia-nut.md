@@ -28,9 +28,6 @@ mathjax: true
 
 Note: The force to break a macadamia nut was found from this source[^1], and P was determined by using the average grip strength of elderly women in order to make the nutcracker accessible[^2].
 
-[^1]: Bailey, A. (2025, November 10). *How do you compare to the average grip strength?* Everyday Health. https://www.everydayhealth.com/workouts-activities/average-grip-strength-by-age-charts-how-do-you-compare/
-[^2]: Schrauf, C., Huber, L., & Visalberghi, E. (2008). Do capuchin monkeys use weight to select hammer tools? *Anim Cogn* 11, 413–422. https://doi.org/10.1007/s10071-007-0131-2
-
 <figure>
   <p align="center">
     <img src="{{ site.baseurl }}/assets/images/macadamia-fbd.png" alt="macadamia-fbd" width="400" />
@@ -392,7 +389,7 @@ $$EI = 61700 \text{ lbf}\cdot\text{in}^2$$
 
 **Table 2: Properties of common materials for nut crackers[^4]**
 
-<table width="30%">
+<table width="100%">
   <thead>
     <tr>
       <th align="center">Material</th>
@@ -428,9 +425,6 @@ $$EI = 61700 \text{ lbf}\cdot\text{in}^2$$
     </tr>
   </tbody>
 </table>
-
-[^3] Kids Lesson Two of the Nutcracker History from the Nutcracker Museum in Leavenworth. (n.d.). Retrieved April 30, 2026, from https://kidslovenutcrackers.com/lessons_2.htm
-[^4] Beer, F. P. (2020). Statics and Mechanics of Materials (3rd ed.). McGraw-Hill Higher Education (US). https://cornellstore-bookshelf.vitalsource.com/books/9781260446463
 
 Since we want to maximize mass, we want the highest ratio of E to specific weight. Out of the options in the table, we see that the aluminum has the highest stiffness to mass ratio of $\frac{10.1}{0.098} = 103$, so we will choose aluminum for the nutcracker material.
 
@@ -472,4 +466,8 @@ Our nutcracker handle will be made of aluminum 6061-T6 with the following cross-
 
 The resulting cross-section geometry of approximately 0.5" x 1" is a reasonable size for a human hand to grip. Moreover, the material (aluminum) is corrosion-resistant and durable, making it an excellent choice for repeated stress and household use.[^5]
 
+[^1]: Bailey, A. (2025, November 10). *How do you compare to the average grip strength?* Everyday Health. https://www.everydayhealth.com/workouts-activities/average-grip-strength-by-age-charts-how-do-you-compare/
+[^2]: Schrauf, C., Huber, L., & Visalberghi, E. (2008). Do capuchin monkeys use weight to select hammer tools? *Anim Cogn* 11, 413–422. https://doi.org/10.1007/s10071-007-0131-2
+[^3] Kids Lesson Two of the Nutcracker History from the Nutcracker Museum in Leavenworth. (n.d.). Retrieved April 30, 2026, from https://kidslovenutcrackers.com/lessons_2.htm
+[^4] Beer, F. P. (2020). Statics and Mechanics of Materials (3rd ed.). McGraw-Hill Higher Education (US). https://cornellstore-bookshelf.vitalsource.com/books/9781260446463
 [^5] boansi. (2026, March 11). 6061 T6 Aluminum: Yield Strength, Density, Thermal Conductivity & Flat Bar Guide - BONACE. https://www.hardwarecustom.com/6061-t6-aluminum/
