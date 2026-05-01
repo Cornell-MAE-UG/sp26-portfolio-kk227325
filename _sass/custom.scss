@@ -1,5 +1,5 @@
 // Default to light theme
-$primary-color: #3a3f58;
+$primary-color: #0f6790;
 $background-color: #f7f8fa;
 $text-color: #333;
 
@@ -48,6 +48,7 @@ header {
 }
 
 footer {
+  clear: both;
   text-align: center;
   margin-top: 40px;
   font-size: 0.9em;
