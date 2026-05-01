@@ -332,6 +332,9 @@ t_list_rk, x1_list_rk1, x2_list_rk1, v1_list_rk1, v2_list_rk1, \
     elapsed_time_rk = simulation_rk(t_end, A1, T, h1)
 t_list_rk, x1_list_rk2, x2_list_rk2, v1_list_rk2, v2_list_rk2, \
     elapsed_time_rk = simulation_rk(t_end, A2, T, h1)
+h1_new = T/400
+simulation_rk(t_end, A1, T, h1_new)
+simulation_rk(t_end, A2, T, h1_new)
 
 # 2c
 
