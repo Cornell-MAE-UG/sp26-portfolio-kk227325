@@ -107,6 +107,7 @@ footer {
   width: 80%;
   max-width: 800px;
   max-height: 500px;
+  object-fit: contain;
 }
 
 .inline-image {
@@ -152,6 +153,7 @@ footer {
   text-align: center;
   transition: transform 0.3s ease;
   max-width: 250px; 
+  object-fit: contain;
 }
 
 .gallery-item img {
