@@ -4,6 +4,7 @@ title: Macadamia Nut Nutcracker Design
 description: Mechanism Analysis for ENGRD 2020
 technologies: [LaTeX, Markdown]
 image: /assets/images/2026-macadamia-nut/macadamia-problem.png
+thumbnail: /assets/images/2026-macadamia-nut/macadamia-thumbnail.png
 mathjax: true
 ---
 
