@@ -6,7 +6,10 @@ permalink: /projects/
 
 <h1>{{ page.title }}</h1>
 
-<p><img src="{{ page.image | relative_url }}" alt="{{ page.imagealt }}" class="project-image" /></p>
+<figure>
+    <img src="{{ page.image | relative_url }}" alt="{{ page.caption }}" class="project-image" />
+    <figcaption><strong>{{ page.caption }}</strong></figcaption>
+</figure>
 
 {{ content }}
 
