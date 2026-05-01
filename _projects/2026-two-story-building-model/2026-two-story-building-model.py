@@ -231,11 +231,11 @@ def simpsons_3(t, f):
 # 1a
 
 # Read F_s and F_d data
-data_sp = np.genfromtxt('springforce.csv', delimiter=',')
+data_sp = np.genfromtxt('sp26-portfolio-kk227325/_projects/2026-two-story-building-model/springforce.csv', delimiter=',')
 t_sp = data_sp[:,0]
 f_sp = data_sp[:,1]
 
-data_d = np.genfromtxt('dampingforce.csv', delimiter=',')
+data_d = np.genfromtxt('sp26-portfolio-kk227325/_projects/2026-two-story-building-model/dampingforce.csv', delimiter=',')
 t_d = data_d[:,0]
 f_d = data_d[:,1]
 

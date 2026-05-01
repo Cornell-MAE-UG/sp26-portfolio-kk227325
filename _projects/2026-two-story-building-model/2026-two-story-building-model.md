@@ -7,3 +7,12 @@ image: /assets/images/2026-two-story-building-model/tsbm-problem.png
 mathjax: true
 ---
 
+This project uses a passive two-story building model to model the effect of an earthquake on a structure, employing various numerical analysis tools learned this semester.
+
+**Given:**
+
+Governing equations of the TSBM:
+
+$$m_2 \ddot{x}_2 + F_d + F_{sp} = -m_2 \ddot{x}_g$$
+$$m_1 \ddot{x}_1 - F_d - F_{sp} = -m_1 \ddot{x}_g -c_f \dot{x}_1 -k_f x_1$$
+
