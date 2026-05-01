@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Macadamia Nut Nutcracker Design
+title: Macadamia Nut Nut Cracker Design
 description: Mechanism Analysis for ENGRD 2020
 technologies: [LaTeX, Markdown]
 image: /assets/images/2026-macadamia-nut/macadamia-problem.png
@@ -8,11 +8,11 @@ thumbnail: /assets/images/2026-macadamia-nut/macadamia-thumbnail.png
 mathjax: true
 ---
 
-This project employs statics and mechanics concepts to design a nutcracker mechanism.
+This project employs statics and mechanics concepts to design a nut cracker mechanism.
 
-**Part 1: Manual nutcracker**
+**Part 1: Manual nut cracker**
 
-**Find:** Optimal dimensions for a nutcracker design
+**Find:** Optimal dimensions for a nut cracker design
 
 **Given:**
 
@@ -29,7 +29,7 @@ This project employs statics and mechanics concepts to design a nutcracker mecha
   <li><b>P</b> = Maximum grip strength we can expect a human to apply = <b>20 kgf</b></li>
 </ul>
 
-Note: The force to break a macadamia nut was found from this source[^1], and P was determined by using the average grip strength of elderly women in order to make the nutcracker accessible[^2].
+Note: The force to break a macadamia nut was found from this source[^1], and P was determined by using the average grip strength of elderly women in order to make the nut cracker accessible[^2].
 
 <figure>
   <p align="center">
@@ -85,7 +85,7 @@ The size of the nut cracker is quite large (about 1 foot long). On top of that, 
 
 **Part 2: Nutcracker using a linear actuator**
 
-**Find:** Optimal dimensions for a nutcracker design using a [linear actuator](https://www.progressiveautomations.com/products/pa-mc2?variant=43915326587060).
+**Find:** Optimal dimensions for a nut cracker design using a [linear actuator](https://www.progressiveautomations.com/products/pa-mc2?variant=43915326587060).
 
 **Given:** 
 
@@ -179,7 +179,7 @@ Now, we will treat the arms as beams that can undergo bending (rather than being
   </p>
 </figure>
 
-**Find:** Location of maximum elastic deflection in the nutcracker handles.
+**Find:** Location of maximum elastic deflection in the nut cracker handles.
 
 **Plan:**
 
@@ -429,7 +429,7 @@ $$EI = 61700 \text{ lbf}\cdot\text{in}^2$$
   </tbody>
 </table>
 
-Since we want to maximize mass, we want the highest ratio of E to specific weight. Out of the options in the table, we see that the aluminum has the highest stiffness to mass ratio of $\frac{10.1}{0.098} = 103$, so we will choose aluminum for the nutcracker material.
+Since we want to maximize mass, we want the highest ratio of E to specific weight. Out of the options in the table, we see that the aluminum has the highest stiffness to mass ratio of $\frac{10.1}{0.098} = 103$, so we will choose aluminum for the nut cracker material.
 
 3) Since $E_\text{al} = 10.1 \times 10^6 \text{ psi}$, the required moment of inertia I for the cross-section geometry is:
 
@@ -456,7 +456,7 @@ $$I = 0.886b^4 = 0.00611 \text{ in}^4 \Rightarrow b = 0.512 \text{ in}$$
 
 Result:
 
-Our nutcracker handle will be made of aluminum 6061-T6 with the following cross-section geometry:
+Our nut cracker handle will be made of aluminum 6061-T6 with the following cross-section geometry:
 
 <figure>
   <p align="center">
