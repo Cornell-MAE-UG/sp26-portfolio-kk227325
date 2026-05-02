@@ -377,20 +377,14 @@ $$EI = 61700 \text{ lbf}\cdot\text{in}^2$$
 
 **Table 2: Properties of common materials for nut crackers[^4]**
 
-| Material | Specific Weight (lb/in$^3$) | Young's Modulus E ($10^6$ psi) |
-| :---: | :---: | :---: |
+| Material | Specific&nbsp;Weight&nbsp;(lb/in$^3$) | Young's&nbsp;Modulus&nbsp;E&nbsp;($10^6$&nbsp;psi) |
+| :--- | :---: | :---: |
 | Steel, stainless, AISI 302 | 0.286 | 28 |
 | Aluminum 6061-T6 | 0.098 | 10.1 |
 | Cast Iron, malleable (2% C, 1% Si, ASTM A-47) | 0.264 | 24 |
 | Yellow Brass (65% Cu, 35% Zn) | 0.306 | 15 |
 | Timber, Red oak | 0.024 | 1.8 |
-<style>
-  /* This targets the first column specifically */
-  table tr th:first-child, table tr td:first-child {
-    width: 20%;
-    white-space: nowrap;
-  }
-</style>
+{: style="width: 100%;"}
 
 Since we want to maximize mass, we want the highest ratio of E to specific weight. Out of the options in the table, we see that the aluminum has the highest stiffness to mass ratio of $\frac{10.1}{0.098} = 103$, so we will choose aluminum for the nut cracker material.
 
