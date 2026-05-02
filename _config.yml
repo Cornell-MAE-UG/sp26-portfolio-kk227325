@@ -29,6 +29,7 @@ collections:
 markdown: kramdown
 kramdown:
   input: GFM
+  extensions: [smartypants, stray_backslashes, tables]
 
 # Plugins (previously gems:)
 plugins:
