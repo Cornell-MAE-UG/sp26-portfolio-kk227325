@@ -135,7 +135,6 @@ From trial and error, we found that at $h = T/10000$, the absolute difference be
 
 The results are summarized in the following table:
 
-
 **Table 1: Comparing values at x<sub>1</sub>, x<sub>2</sub>, v<sub>1</sub>, and v<sub>2</sub> values at t = 2T between Runge-Kutta and Forward Euler methods**
 
 <table width="30%">
@@ -174,22 +173,6 @@ The results are summarized in the following table:
     </tr>
   </tbody>
 </table>
-
-
-| A | B |
-| :--- | :--- |
-| 1 | 2 |
-{: .table }
-
-<br />
-
-**Table 1: Comparing values...**
-
-| | Runge-Kutta, $h=T/200$ | Forward Euler, $h=T/10000$ | Absolute difference |
-| :---: | :---: | :---: | :---: |
-| $x_1$ | $-0.000140$ | $-0.000591$ | $0.000450$ |
-| $x_2$ | $-0.000140$ | $-0.000591$ | $0.000450$ |
-{: .table }
 
 
 **Reflection:**
