@@ -174,13 +174,14 @@ The results are summarized in the following table:
   </tbody>
 </table>
 
-<br>
+**Table 1: Comparing values at $x_1$, $x_2$, $v_1$, and $v_2$ at $t = 2T$**
 
-| A | B |
-| :--- | :--- |
-| 1 | 2 |
-
-<br>
+| | Runge-Kutta, $h=T/200$ | Forward Euler, $h=T/10000$ | Absolute difference |
+| :---: | :---: | :---: | :---: |
+| $x_1$ | $-0.0001405736569685958$ | $-0.0005913086740531184$ | $0.00045073501708452256$ |
+| $x_2$ | $-0.0001405736569685958$ | $-0.0005913086740531184$ | $0.00045073501708452256$ |
+| $v_1$ | $0.0019618261238128635$ | $0.008915495782174165$ | $0.006953669658361301$ |
+| $v_2$ | $0.0021066720511363083$ | $-0.007844023734345375$ | $0.009950695785481682$ |
 
 **Reflection:**
 
@@ -208,3 +209,10 @@ This observation is verified by the result of measuring the time of computation 
     </tr>
   </tbody>
 </table>
+
+**Table 2: Comparison of the efficiency of Runge-Kutta and forward Euler methods**
+
+| Method | Elapsed Time (s) |
+| :--- | :--- |
+| Runge-Kutta | $0.027045011520385742$ |
+| Forward Euler | $0.14670372009277344$ |
