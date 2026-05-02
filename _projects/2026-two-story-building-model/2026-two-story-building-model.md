@@ -53,7 +53,7 @@ The code <a href="{{ "sp26-portfolio-kk227325/_projects/2026-two-story-building-
 
 ***
 
-**Task 1:** Performs a polynomial least squares fit on the datasets <i>springforce.csv</i> ($F_{sp}$ as a function of $\Delta x$) and <i>dampingforce.csv</i> ($F_{d}$ as a function of $\Delta \dot{x}$). Plots the two curves and computes the coefficients $k_1$, $k_2$, $k_3$, $c_1$, and $c_2$.
+**Task 1:** Performs a polynomial least squares fit on the datasets <i>springforce.csv</i> ($F_{sp}$ as a function of $\Delta x$) and <i>dampingforce.csv</i> ($F_{d}$ as a function of $\Delta \dot{x}$). Plots the two curves and computes the coefficients $k_1$, $k_2$, $k_3$, $c_1$, and $c_2$
 
 **Results:**
 The code uses the <i>polylsq()</i> function to fit the data and achieve the following polynomials:
@@ -78,7 +78,7 @@ $$F_{d} = 90.86709091 \cdot ∆\dot{x} + 2.54104188 \cdot ∆\dot{x}^2$$
 
 ***
 
-**Task 2:** Converts the governing equations to a system of four 1st order ordinary differential equations and solves the system numerically with the 4th order Runge-Kutta method. 
+**Task 2:** Converts the governing equations to a system of four 1st order ordinary differential equations and solves the system numerically with the 4th order Runge-Kutta method
 
 The simulation was done over 10 seconds using an earthquake duration of $T = 2.5$ s and two different forcing amplitudes of $A = 4.4$ m/s<sup>2</sup> and $16$ m/s<sup>2</sup>. The initial conditions of each variable were set to zero for at $t = 0$ s.
 
@@ -115,7 +115,7 @@ We determined that using a time step of $h = T/200$ achieved timestep independen
 
 ***
 
-**Task 3:** Re-solves the ODE for the $A = 4.4$ m/s<sup>2</sup> case with the forward Euler method instead, first with a timestep of $h = T/6400$, and then with an even smaller timestep that matches the accuracy of the Runge-Kutta method.
+**Task 3:** Re-solves the ODE for the $A = 4.4$ m/s<sup>2</sup> case with the forward Euler method instead, first with a timestep of $h = T/6400$, and then with an even smaller timestep that matches the accuracy of the Runge-Kutta method
 
 **Results:**
 
@@ -164,7 +164,7 @@ This observation is verified by the result of measuring the time of computation 
 
 ***
 
-**Task 4:** Uses an $O(h^2)$ centered finite difference scheme on the $v_2$ data to compute the acceleration of the second floor $\ddot{x}_2$ for each forcing amplitude and classifies the building response due to the maximum acceleration.
+**Task 4:** Uses an $O(h^2)$ centered finite difference scheme on the $v_2$ data to compute the acceleration of the second floor $\ddot{x}_2$ for each forcing amplitude and classifies the building response due to the maximum acceleration
 
 **Results:**
 <figure>
@@ -178,8 +178,8 @@ This observation is verified by the result of measuring the time of computation 
 
 | A (m/s$^2$) | $\ddot{x}_2$ (m/s$^2$) | Building response |
 | :---: | :---: | :---:|
-| Runge-Kutta | $0.027045011520385742$ | Weak Jolt |
-| Forward Euler | $0.14670372009277344$ | Collapse |
+| $4.4$ | $0.027045011520385742$ | Weak Jolt |
+| $16$ | $0.14670372009277344$ | Collapse |
 
 The building response was classified using the following standards:
 
@@ -187,12 +187,50 @@ The building response was classified using the following standards:
 
 | Maximum acceleration (m/s$^2$) | Building response |
 | :---: | :---: |
-| 0 to 4 m/s$^2$ | Weak Jolt |
-| 4 to 8 m/s$^2$ | Strong Jolt |
-| 8 to 12 m/s$^2$ | Fracture |
-| 12 m/s$^2$ and above | Collapse |
-{: style="width: 60%; margin: auto;"}
+| 0 to 4 | Weak Jolt |
+| 4 to 8 | Strong Jolt |
+| 8 to 12 | Fracture |
+| 12 and above | Collapse |
+{: style="width: 50%; margin: auto;"}
 
 ***
 
-**Task 5:**
+**Task 5:** Identifies the time at which the second floor first returns to its original position after the earthquake jolt
+
+Specifically, the code constructs a 5th degree Lagrange interpolating polynomial using the 6 data points closest to the zero crossing of $x_2$, and then uses the secant method to find the zero-crossing with approximate absolute error tolerance of $10^{-3}$.
+
+**Result:**
+
+**Table 5: Zero-crossing of $x_2$**
+
+| A (m/s$^2$) | Time (s) |
+| :---: | :---: |
+| $4.4$ | $1.334356032234128$ |
+| $16$ | $1.288358313982833$ |
+
+**Reflection:**
+
+Note that the we used the secant method instead of the Newton-Raphson method because only the interpolating polynomial for $x_2$ was known, and using Newton-Raphson would require a formula for its derivative $\dot{x}_2$. Furthermore, we chose the secant method over the bisection method because of its faster, superlinear convergence.
+
+***
+
+**Task 6:** Computes the energy absorbed by the shock absorber during the earthquake
+
+To solve this, we numerically integrate the following integral:
+
+$$\int_{0}^{T}{F_d\cdot∆\dot{x}}\,dt$$
+
+We evaluated this integral using two different composite Newton-Cotes formulas: the composite trapezoidal and Simpson's 1/3 rules.
+
+**Result:**
+
+**Table 6: Energy loss due to damping and comparison of Newton-Cotes formulas**
+
+| A (m/s$^2$) | Energy lost (J), Trapezoidal Rule | Energy lost (J), Simpson's 1/3 Rule | Relative Difference
+| :---: | :---: |
+| $4.4$ | $0.29800108814179976$ | $0.2977177276271786$ | 0.0009517757537637519
+| $16$ | $2.609576735353444$ | $2.5550386306736588$ | 0.021345315106020845
+
+**Reflection:**
+
+Although Simpson's 1/3 rule is known to have a smaller truncation error than the trapezoidal rule, we evaluated the relative difference between the trapezoidal and Simpson's 1/3 rules and we did not find a significant difference in their results for our data.
