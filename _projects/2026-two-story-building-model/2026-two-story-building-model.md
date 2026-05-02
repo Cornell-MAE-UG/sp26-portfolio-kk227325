@@ -20,7 +20,7 @@ $$m_2 \ddot{x}_2 + F_d + F_{sp} = -m_2 \ddot{x}_g$$
 $$m_1 \ddot{x}_1 - F_d - F_{sp} = -m_1 \ddot{x}_g -c_f \dot{x}_1 -k_f x_1$$
 
 <ul>
-  <li>$\mathbf{x_1}$ & $\mathbf{x_2}$ = displacements of the first and second floors, respectively, as functions of time.
+  <li>$\mathbf{x_1}$ & $\mathbf{x_2}$ = displacements of the first and second floors, respectively, as functions of time.</li>
   <li>$\mathbf{\ddot{x}}$ = given function of time of ground acceleration due to the earthquake</li>
   <li>$\mathbf{F_{sp}}$ = spring force</li>
   <li>$\mathbf{F_{d}}$ = damper force</li>
@@ -174,6 +174,13 @@ The results are summarized in the following table:
   </tbody>
 </table>
 
+<br>
+
+| A | B |
+| :--- | :--- |
+| 1 | 2 |
+
+<br>
 
 **Reflection:**
 
