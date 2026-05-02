@@ -135,45 +135,6 @@ From trial and error, we found that at $h = T/10000$, the absolute difference be
 
 The results are summarized in the following table:
 
-**Table 1: Comparing values at x<sub>1</sub>, x<sub>2</sub>, v<sub>1</sub>, and v<sub>2</sub> values at t = 2T between Runge-Kutta and Forward Euler methods**
-
-<table width="30%">
-  <thead>
-    <tr>
-      <th align="center"></th>
-      <th align="center">Runge-Kutta, h=T/200</th>
-      <th align="center">Forward Euler, h=T/10000</th>
-      <th align="center">Absolute difference</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">$$x_1$$</td>
-      <td align="center">$$-0.0001405736569685958$$</td>
-      <td align="center">$$-0.0005913086740531184$$</td>
-      <td align="center">$$0.00045073501708452256$$</td>
-    </tr>
-    <tr>
-      <td align="center">$$x_2$$</td>
-      <td align="center">$$-0.0001405736569685958$$</td>
-      <td align="center">$$-0.0005913086740531184$$</td>
-      <td align="center">$$0.00045073501708452256$$</td>
-    </tr>
-    <tr>
-      <td align="center">$$v_1$$</td>
-      <td align="center">$$0.0019618261238128635$$</td>
-      <td align="center">$$0.008915495782174165$$</td>
-      <td align="center">$$0.006953669658361301$$</td>
-    </tr>
-    <tr>
-      <td align="center">$$v_2$$</td>
-      <td align="center">$$0.0021066720511363083$$</td>
-      <td align="center">$$-0.007844023734345375$$</td>
-      <td align="center">$$0.009950695785481682$$</td>
-    </tr>
-  </tbody>
-</table>
-
 **Table 1: Comparing values at $x_1$, $x_2$, $v_1$, and $v_2$ at $t = 2T$**
 
 | | Runge-Kutta, $h=T/200$ | Forward Euler, $h=T/10000$ | Absolute difference |
@@ -188,27 +149,6 @@ The results are summarized in the following table:
 This task shows us how the Runge-Kutta method is far more efficient than the forward Euler method. While it is true that the Runge-Kutta method must evaluate each derivative four times per timestep, the forward Euler method requires $10000 \div 200 = 50$ times more timesteps, thus making Runge-Kutta much faster to compute a solution of the same accuracy.
 
 This observation is verified by the result of measuring the time of computation using the <i>time.time()</i> function and noting the significantly shorter time of computation taken by the Runge-Kutta method.
-
-**Table 2: Comparison of the efficiency of Runge-Kutta and forward Euler methods**
-
-<table width="30%">
-  <thead>
-    <tr>
-      <th align="center">Method</th>
-      <th align="center">Elapsed Time (s)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">Runge-Kutta</td>
-      <td align="center">$$0.027045011520385742$$</td>
-    </tr>
-    <tr>
-      <td align="center">Forward Euler</td>
-      <td align="center">$$0.14670372009277344$$</td>
-    </tr>
-  </tbody>
-</table>
 
 **Table 2: Comparison of the efficiency of Runge-Kutta and forward Euler methods**
 
