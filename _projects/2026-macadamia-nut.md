@@ -377,14 +377,42 @@ $$EI = 61700 \text{ lbf}\cdot\text{in}^2$$
 
 **Table 2: Properties of common materials for nut crackers[^4]**
 
-| Material | Specific&nbsp;Weight&nbsp;(lb/in$^3$) | Young's&nbsp;Modulus&nbsp;E&nbsp;($10^6$&nbsp;psi) |
-| :--- | :---: | :---: |
-| Steel, stainless, AISI 302 | 0.286 | 28 |
-| Aluminum 6061-T6 | 0.098 | 10.1 |
-| Cast Iron, malleable (2% C, 1% Si, ASTM A-47) | 0.264 | 24 |
-| Yellow Brass (65% Cu, 35% Zn) | 0.306 | 15 |
-| Timber, Red oak | 0.024 | 1.8 |
-{: style="width: auto; margin-left: 0;"}
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+  <thead>
+    <tr style="background-color: #f8f8f8;">
+      <th style="width: 45%; padding: 10px; border: 1px solid #ddd; text-align: left; white-space: nowrap;">Material</th>
+      <th style="width: 25%; padding: 10px; border: 1px solid #ddd; text-align: center; white-space: nowrap;">Specific Weight (lb/in<sup>3</sup>)</th>
+      <th style="width: 30%; padding: 10px; border: 1px solid #ddd; text-align: center; white-space: nowrap;">Young's Modulus E (10<sup>6</sup> psi)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Steel, stainless, AISI 302</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">0.286</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">28</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Aluminum 6061-T6</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">0.098</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">10.1</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Cast Iron, malleable...</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">0.264</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">24</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Yellow Brass (65% Cu, 35% Zn)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">0.306</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">15</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">Timber, Red oak</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">0.024</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">1.8</td>
+    </tr>
+  </tbody>
+</table>
 
 Since we want to maximize mass, we want the highest ratio of E to specific weight. Out of the options in the table, we see that the aluminum has the highest stiffness to mass ratio of $\frac{10.1}{0.098} = 103$, so we will choose aluminum for the nut cracker material.
 

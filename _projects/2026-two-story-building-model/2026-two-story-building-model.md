@@ -191,3 +191,8 @@ The building response was classified using the following standards:
 | 4 to 8 m/s$^2$ | Strong Jolt |
 | 8 to 12 m/s$^2$ | Fracture |
 | 12 m/s$^2$ and above | Collapse |
+{: style="width: 60%; margin: auto;"}
+
+***
+
+**Task 5:**
