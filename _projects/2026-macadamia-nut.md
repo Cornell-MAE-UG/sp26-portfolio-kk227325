@@ -378,7 +378,7 @@ $$EI = 61700 \text{ lbf}\cdot\text{in}^2$$
 **Table 2: Properties of common materials for nut crackers[^4]**
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-  <thead>
+  <thead style="background-color: #f8f8f8;">
     <tr>
       <th style="width: 45%; padding: 10px; border: 1px solid #ddd; text-align: center; white-space: nowrap;">Material</th>
       <th style="width: 25%; padding: 10px; border: 1px solid #ddd; text-align: center; white-space: nowrap;">Specific Weight (lb/in<sup>3</sup>)</th>

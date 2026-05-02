@@ -191,7 +191,7 @@ The building response was classified using the following standards:
 | 4 to 8 | Strong Jolt |
 | 8 to 12 | Fracture |
 | 12 and above | Collapse |
-{: style="width: 50%; margin: auto;"}
+{: style="width: 60%; margin: auto;"}
 
 ***
 
@@ -203,10 +203,11 @@ Specifically, the code constructs a 5th degree Lagrange interpolating polynomial
 
 **Table 5: Zero-crossing of $x_2$**
 
-| A (m/s<sup>2</sup>$) | Time (s) |
+| A (m/s<sup>2</sup>) | Time (s) |
 | :---: | :---: |
 | $4.4$ | $1.334356032234128$ |
 | $16$ | $1.288358313982833$ |
+{: style="width: 70%; margin: auto;"}
 
 **Reflection:**
 
@@ -228,10 +229,10 @@ We evaluated this integral using two different composite Newton-Cotes formulas: 
 
 <table style="width: 100%; border-collapse: collapse; table-layout: auto; font-family: sans-serif; margin-bottom: 24px;">
   <thead>
-    <tr>
+    <tr style="background-color: #f8f8f8;">
       <th style="padding: 12px; border: 1px solid #ddd; text-align: center; white-space: nowrap; width: 15%;">A (m/s<sup>2</sup>)</th>
-      <th style="padding: 12px; border: 1px solid #ddd; text-align: center;">Energy lost (J), Trapezoidal Rule</th>
-      <th style="padding: 12px; border: 1px solid #ddd; text-align: center;">Energy lost (J), Simpson's 1/3 Rule</th>
+      <th style="padding: 12px; border: 1px solid #ddd; text-align: center;">Energy lost (J), <br>Trapezoidal Rule</th>
+      <th style="padding: 12px; border: 1px solid #ddd; text-align: center;">Energy lost (J), <br>Simpson's 1/3 Rule</th>
       <th style="padding: 12px; border: 1px solid #ddd; text-align: center;">Relative Difference</th>
     </tr>
   </thead>
