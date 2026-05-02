@@ -314,28 +314,12 @@ Plugging in the critical point x = 0.64" and endpoints x = 0" and x = 9.73" into
 
 **Table 1: Magnitude of deflection at critical points**
 
-<table width="30%">
-  <thead>
-    <tr>
-      <th align="center">x (in)</th>
-      <th align="center">y(x) (in)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">0</td>
-      <td align="center">0</td>
-    </tr>
-    <tr>
-      <td align="center">0.64</td>
-      <td align="center">$$\frac{33.9}{EI}$$</td>
-    </tr>
-    <tr>
-      <td align="center">9.73</td>
-      <td align="center">$$\frac{-12000}{EI}$$</td>
-    </tr>
-  </tbody>
-</table>
+| x (in) | y(x) (in) |
+| :---: | :---: |
+| 0 | 0 |
+| 0.64 | $\frac{33.9}{EI}$ |
+| 9.73 | $\frac{-12000}{EI}$ |
+{: style="width: 40%; margin: auto;"}
 
 The value of x that yields the largest magnitude of deflection is at x = <b>9.73 in</b>.
 
@@ -393,42 +377,13 @@ $$EI = 61700 \text{ lbf}\cdot\text{in}^2$$
 
 **Table 2: Properties of common materials for nut crackers[^4]**
 
-<table width="100%">
-  <thead>
-    <tr>
-      <th align="center">Material</th>
-      <th align="center">Specific Weight (lb/in<sup>3</sup>)</th>
-      <th align="center">Young's Modulus E ($10^6$ psi)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">Steel, stainless, AISI 302</td>
-      <td align="center">0.286</td>
-      <td align="center">28</td>
-    </tr>
-    <tr>
-      <td align="center">Aluminum 6061-T6</td>
-      <td align="center">0.098</td>
-      <td align="center">10.1</td>
-    </tr>
-    <tr>
-      <td align="center">Cast Iron, malleable (2% C, 1% Si, ASTM A-47)</td>
-      <td align="center">0.264</td>
-      <td align="center">24</td>
-    </tr>
-    <tr>
-      <td align="center">Yellow Brass (65% Cu, 35% Zn)</td>
-      <td align="center">0.306</td>
-      <td align="center">15</td>
-    </tr>
-    <tr>
-      <td align="center">Timber, Red oak</td>
-      <td align="center">0.024</td>
-      <td align="center">1.8</td>
-    </tr>
-  </tbody>
-</table>
+| Material | Specific Weight (lb/in$^3$) | Young's Modulus E ($10^6$ psi) |
+| :---: | :---: | :---: |
+| Steel, stainless, AISI 302 | 0.286 | 28 |
+| Aluminum 6061-T6 | 0.098 | 10.1 |
+| Cast Iron, malleable (2% C, 1% Si, ASTM A-47) | 0.264 | 24 |
+| Yellow Brass (65% Cu, 35% Zn) | 0.306 | 15 |
+| Timber, Red oak | 0.024 | 1.8 |
 
 Since we want to maximize mass, we want the highest ratio of E to specific weight. Out of the options in the table, we see that the aluminum has the highest stiffness to mass ratio of $\frac{10.1}{0.098} = 103$, so we will choose aluminum for the nut cracker material.
 

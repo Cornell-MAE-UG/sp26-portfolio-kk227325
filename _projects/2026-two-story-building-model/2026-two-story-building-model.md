@@ -153,6 +153,7 @@ This observation is verified by the result of measuring the time of computation 
 **Table 2: Comparison of the efficiency of Runge-Kutta and forward Euler methods**
 
 | Method | Elapsed Time (s) |
-| :--- | :--- |
+| :---: | :---: |
 | Runge-Kutta | $0.027045011520385742$ |
 | Forward Euler | $0.14670372009277344$ |
+{: style="width: 75%; margin: auto;"}
