@@ -226,10 +226,30 @@ We evaluated this integral using two different composite Newton-Cotes formulas: 
 
 **Table 6: Energy loss due to damping and comparison of Newton-Cotes formulas**
 
-| A (m/s<sup>2</sup>) | Energy lost (J), Trapezoidal Rule | Energy lost (J), Simpson's 1/3 Rule | Relative Difference
-| :---: | :---: |
-| $4.4$ | $0.29800108814179976$ | $0.2977177276271786$ | $0.0009517757537637519$
-| $16$ | $2.609576735353444$ | $2.5550386306736588$ | $0.021345315106020845$
+<table style="width: 100%; border-collapse: collapse; table-layout: auto; font-family: sans-serif; margin-bottom: 24px;">
+  <thead>
+    <tr>
+      <th style="padding: 12px; border: 1px solid #ddd; text-align: center; white-space: nowrap; width: 15%;">A (m/s<sup>2</sup>)</th>
+      <th style="padding: 12px; border: 1px solid #ddd; text-align: center;">Energy lost (J), Trapezoidal Rule</th>
+      <th style="padding: 12px; border: 1px solid #ddd; text-align: center;">Energy lost (J), Simpson's 1/3 Rule</th>
+      <th style="padding: 12px; border: 1px solid #ddd; text-align: center;">Relative Difference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">4.4</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">0.29800108814179976</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">0.2977177276271786</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">0.0009517757537637519</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">16</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">2.609576735353444</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">2.5550386306736588</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">0.021345315106020845</td>
+    </tr>
+  </tbody>
+</table>
 
 **Reflection:**
 
