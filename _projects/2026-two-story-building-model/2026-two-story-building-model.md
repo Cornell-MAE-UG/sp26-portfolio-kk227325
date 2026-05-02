@@ -52,7 +52,30 @@ The code <a href="{{ "sp26-portfolio-kk227325/_projects/2026-two-story-building-
 
 **Task 1:** Performs a polynomial least squares fit on the datasets <i>springforce.csv</i> ($F_{sp}$ as a function of $\Delta x$) and <i>dampingforce.csv</i> ($F_{d}$ as a function of $\Delta \dot{x}$). Plots the two curves and computes the coefficients $k_1$, $k_2$, $k_3$, $c_1$, and $c_2$.
 
-**Task 2:** Converts the governing equations to a system of four 1st order ordinary differential equations and solves the system numerically with the 4th order Runge-Kutta method.
+**Results:**
+The code uses the <i>polylsq()</i> function to fit the data and achieve the following polynomials:
+
+$$F_{sp} = 1.09994172 \times 10^{-5} \cdot ∆x - 6.30745659 \times 10^-6 \cdot ∆x^2 + 3.35810023 \times 10^9 \cdot ∆x^3$$
+
+<figure>
+  <p align="center">
+    <img src="{{ site.baseurl }}/assets/images/2026-two-story-building-model/tsbm-spring.png" alt="tsbm-spring" width="400" />
+    <figcaption align="center"><b>Figure 2: Least squares polynomial of spring force vs aggregate displacement</b></figcaption>
+  </p>
+</figure>
+
+$$F_{d} = 90.86709091 \cdot ∆\dot{x} + 2.54104188 \cdot ∆\dot{x}^2$$
+
+<figure>
+  <p align="center">
+    <img src="{{ site.baseurl }}/assets/images/2026-two-story-building-model/tsbm-damper.png" alt="tsbm-damper" width="400" />
+    <figcaption align="center"><b>Figure 3: Least squares polynomial of damping force vs aggregate velocity</b></figcaption>
+  </p>
+</figure>
+
+**Task 2:** Converts the governing equations to a system of four 1st order ordinary differential equations and solves the system numerically with the 4th order Runge-Kutta method. 
+
+The simulation was done over 10 seconds using an earthquake duration of $T = 2.5$ s and two different forcing amplitudes of $A = 4.4$ m/s<sup>2</sup> and $16$ m/s<sup>2</sup>. The initial conditions of each variable were set to zero for at $t = 0$ s.
 
 Note: the system of four 1st order ODE's is as follows:
 
@@ -67,3 +90,109 @@ $$\left\{
 
 Note that $v_2 - v_1$ and $x_2 - x_1$ are the <i>inputs</i> to the $F_d$ and $F_{sp}$ functions, respectively.
 
+**Results:**
+We determined that using a time step of $h = T/200$ achieved timestep independence, as the solutions for this time step were essentially indistinguishable from the solutions if we reduced the time step by half, to $h = T/400$. Figures 4 and 5 shows our numerically determined solutions to the system of ODE's for each forcing amplitude.
+
+<figure>
+  <p align="center">
+    <img src="{{ site.baseurl }}/assets/images/2026-two-story-building-model/tsbm-rk4-4.4.png" alt="tsbm-rk4-4.4" width="400" />
+    <figcaption align="center"><b>Figure 4: Solution of ODE using the Runge-Kutta method, A = 4.4 m/s<sup>2</sup></b></figcaption>
+  </p>
+</figure>
+
+<figure>
+  <p align="center">
+    <img src="{{ site.baseurl }}/assets/images/2026-two-story-building-model/tsbm-rk4-16.png" alt="tsbm-rk4-16" width="400" />
+    <figcaption align="center"><b>Figure 5: Solution of ODE using the Runge-Kutta method, A = 16 m/s<sup>2</sup></b></figcaption>
+  </p>
+</figure>
+
+**Task 3:** Re-solves the ODE for the $A = 4.4$ m/s<sup>2</sup> case with the forward Euler method instead, first with a timestep of $h = T/6400$, and then with an even smaller timestep that matches the accuracy of the Runge-Kutta method.
+
+**Results:**
+
+<figure>
+  <p align="center">
+    <img src="{{ site.baseurl }}/assets/images/2026-two-story-building-model/tsbm-fe-T6000.png" alt="tsbm-fe-T6000" width="400" />
+    <figcaption align="center"><b>Figure 6: Solution of ODE using the Forward-Euler a method, h = T/6400<sup>2</sup></b></figcaption>
+  </p>
+</figure>
+
+Figure 6 shows that for Forward Euler method, even with a timestep as small as T/6400, the graphs did not converge, and in fact, appeared to diverge for x<sub>1</sub> and v<sub>1</sub>. Thus, we needed an even smaller time step.
+
+From trial and error, we found that at $h = T/10000$, the absolute difference between each method was below $10^{-2}$ for all four variables at time t = 2T. So, we determined that this timestep gave us a solution of comparable accuracy to the Runge-Kutta method at $h = T/200$.
+
+<figure>
+  <p align="center">
+    <img src="{{ site.baseurl }}/assets/images/2026-two-story-building-model/tsbm-fe-T10000.png" alt="tsbm-fe-T10000" width="400" />
+    <figcaption align="center"><b>Figure 5: Solution of ODE using the Runge-Kutta method, h = T/10000<sup>2</sup></b></figcaption>
+  </p>
+</figure>
+
+The results are summarized in the following table:
+
+**Table 1: Comparing values at x<sub>1</sub>, x<sub>2</sub>, v<sub>1</sub>, and v<sub>2</sub> values at t = 2T between Runge-Kutta and Forward Euler methods**
+
+<table width="30%">
+  <thead>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Runge-Kutta, h=T/200</th>
+      <th align="center">Forward Euler, h=T/10000</th>
+      <th align="center">Absolute difference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">$$x_1$$</td>
+      <td align="center">$$-0.0001405736569685958$$</td>
+      <td align="center">$$-0.0005913086740531184$$</td>
+      <td align="center">$$0.00045073501708452256$$</td>
+    </tr>
+    <tr>
+      <td align="center">$$x_2$$</td>
+      <td align="center">$$-0.0001405736569685958$$</td>
+      <td align="center">$$-0.0005913086740531184$$</td>
+      <td align="center">$$0.00045073501708452256$$</td>
+    </tr>
+    <tr>
+      <td align="center">$$v_1$$</td>
+      <td align="center">$$0.0019618261238128635$$</td>
+      <td align="center">$$0.008915495782174165$$</td>
+      <td align="center">$$0.006953669658361301$$</td>
+    </tr>
+    <tr>
+      <td align="center">$$v_2$$</td>
+      <td align="center">$$0.0021066720511363083$$</td>
+      <td align="center">$$-0.007844023734345375$$</td>
+      <td align="center">$$0.009950695785481682$$</td>
+    </tr>
+  </tbody>
+</table>
+
+**Reflection:**
+
+This task shows us how the Runge-Kutta method is far more efficient than the forward Euler method. While it is true that the Runge-Kutta method must evaluate each derivative four times per timestep, the forward Euler method requires $10000 \div 200 = 50$ times more timesteps, thus making Runge-Kutta much faster to compute a solution of the same accuracy.
+
+This observation is verified by the result of measuring the time of computation using the <i>time.time()</i> function and noting the significantly shorter time of computation taken by the Runge-Kutta method.
+
+**Table 2: Comparison of the efficiency of Runge-Kutta and forward Euler methods**
+
+<table width="30%">
+  <thead>
+    <tr>
+      <th align="center">Method</th>
+      <th align="center">Elapsed Time (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">Runge-Kutta</td>
+      <td align="center">$$0.027045011520385742$$</td>
+    </tr>
+    <tr>
+      <td align="center">Forward Euler</td>
+      <td align="center">$$0.14670372009277344$$</td>
+    </tr>
+  </tbody>
+</table>
