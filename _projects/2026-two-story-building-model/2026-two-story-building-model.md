@@ -47,11 +47,11 @@ Lastly, we will model the earthquake ground acceleration function as a sine wave
 
 $$\ddot{x}_g = A\sin (\omega t) \,\,\,\,\, 0 \leq t \leq T = \frac{2 \pi}{\omega}$$
 
-
 ***
 
-
 The code <a href="{{ "sp26-portfolio-kk227325/_projects/2026-two-story-building-model/2026-two-story-building-model.py" | relative_url }}">2026-two-story-building-model.py</a> accomplishes the following tasks:
+
+***
 
 **Task 1:** Performs a polynomial least squares fit on the datasets <i>springforce.csv</i> ($F_{sp}$ as a function of $\Delta x$) and <i>dampingforce.csv</i> ($F_{d}$ as a function of $\Delta \dot{x}$). Plots the two curves and computes the coefficients $k_1$, $k_2$, $k_3$, $c_1$, and $c_2$.
 
@@ -75,6 +75,8 @@ $$F_{d} = 90.86709091 \cdot ∆\dot{x} + 2.54104188 \cdot ∆\dot{x}^2$$
     <figcaption align="center"><b>Figure 3: Least squares polynomial of damping force vs aggregate velocity</b></figcaption>
   </p>
 </figure>
+
+***
 
 **Task 2:** Converts the governing equations to a system of four 1st order ordinary differential equations and solves the system numerically with the 4th order Runge-Kutta method. 
 
@@ -110,6 +112,8 @@ We determined that using a time step of $h = T/200$ achieved timestep independen
     <figcaption align="center"><b>Figure 5: Solution of ODE using the Runge-Kutta method, A = 16 m/s<sup>2</sup></b></figcaption>
   </p>
 </figure>
+
+***
 
 **Task 3:** Re-solves the ODE for the $A = 4.4$ m/s<sup>2</sup> case with the forward Euler method instead, first with a timestep of $h = T/6400$, and then with an even smaller timestep that matches the accuracy of the Runge-Kutta method.
 
@@ -156,4 +160,14 @@ This observation is verified by the result of measuring the time of computation 
 | :---: | :---: |
 | Runge-Kutta | $0.027045011520385742$ |
 | Forward Euler | $0.14670372009277344$ |
-{: style="width: 75%; margin: auto;"}
+{: style="width: 60%; margin: auto;"}
+
+***
+
+**Task 4:**
+<figure>
+  <p align="center">
+    <img src="{{ site.baseurl }}/assets/images/2026-two-story-building-model/tsbm-fe-T10000.png" alt="tsbm-fe-T10000" width="400" />
+    <figcaption align="center"><b>Figure 5: Solution of ODE using the Runge-Kutta method, h = T/10000<sup>2</sup></b></figcaption>
+  </p>
+</figure>
