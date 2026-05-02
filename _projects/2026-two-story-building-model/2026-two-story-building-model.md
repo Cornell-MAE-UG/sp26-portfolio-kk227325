@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: project
 title: Two Story Building Model
 description: Numerical Simulation and Computation for ENGRD 3200
 technologies: [Python, Markdown]
