@@ -380,7 +380,7 @@ $$EI = 61700 \text{ lbf}\cdot\text{in}^2$$
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
     <tr style="background-color: #f8f8f8;">
-      <th style="width: 45%; padding: 10px; border: 1px solid #ddd; text-align: left; white-space: nowrap;">Material</th>
+      <th style="width: 45%; padding: 10px; border: 1px solid #ddd; text-align: center; white-space: nowrap;">Material</th>
       <th style="width: 25%; padding: 10px; border: 1px solid #ddd; text-align: center; white-space: nowrap;">Specific Weight (lb/in<sup>3</sup>)</th>
       <th style="width: 30%; padding: 10px; border: 1px solid #ddd; text-align: center; white-space: nowrap;">Young's Modulus E (10<sup>6</sup> psi)</th>
     </tr>
@@ -424,7 +424,7 @@ For the handle design, we need a geometry with area concentrated far from the ne
 
 <figure>
   <p align="center">
-    <img src="{{ site.baseurl }}/assets/images/2026-macadamia-nut/macadamia-part4-ibeam.png" alt="macadamia-part4-ibeam" width="300" />
+    <img src="{{ site.baseurl }}/assets/images/2026-macadamia-nut/macadamia-part4-ibeam.png" alt="macadamia-part4-ibeam" width="600" />
     <figcaption align="center"><b>Figure 12: Cross-section design.</b></figcaption>
   </p>
 </figure>

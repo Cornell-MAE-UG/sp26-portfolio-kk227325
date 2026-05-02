@@ -176,7 +176,7 @@ This observation is verified by the result of measuring the time of computation 
 
 **Table 3: Maximum acceleration of second floor**
 
-| A (m/s$^2$) | $\ddot{x}_2$ (m/s$^2$) | Building response |
+| A (m/s<sup>2</sup>) | $\ddot{x}_2$ (m/s<sup>2</sup>) | Building response |
 | :---: | :---: | :---:|
 | $4.4$ | $0.027045011520385742$ | Weak Jolt |
 | $16$ | $0.14670372009277344$ | Collapse |
@@ -185,7 +185,7 @@ The building response was classified using the following standards:
 
 **Table 4: Building response**
 
-| Maximum acceleration (m/s$^2$) | Building response |
+| Maximum acceleration (m/s<sup>2</sup>) | Building response |
 | :---: | :---: |
 | 0 to 4 | Weak Jolt |
 | 4 to 8 | Strong Jolt |
@@ -203,7 +203,7 @@ Specifically, the code constructs a 5th degree Lagrange interpolating polynomial
 
 **Table 5: Zero-crossing of $x_2$**
 
-| A (m/s$^2$) | Time (s) |
+| A (m/s<sup>2</sup>$) | Time (s) |
 | :---: | :---: |
 | $4.4$ | $1.334356032234128$ |
 | $16$ | $1.288358313982833$ |
@@ -226,10 +226,10 @@ We evaluated this integral using two different composite Newton-Cotes formulas: 
 
 **Table 6: Energy loss due to damping and comparison of Newton-Cotes formulas**
 
-| A (m/s$^2$) | Energy lost (J), Trapezoidal Rule | Energy lost (J), Simpson's 1/3 Rule | Relative Difference
+| A (m/s<sup>2</sup>) | Energy lost (J), Trapezoidal Rule | Energy lost (J), Simpson's 1/3 Rule | Relative Difference
 | :---: | :---: |
-| $4.4$ | $0.29800108814179976$ | $0.2977177276271786$ | 0.0009517757537637519
-| $16$ | $2.609576735353444$ | $2.5550386306736588$ | 0.021345315106020845
+| $4.4$ | $0.29800108814179976$ | $0.2977177276271786$ | $0.0009517757537637519$
+| $16$ | $2.609576735353444$ | $2.5550386306736588$ | $0.021345315106020845$
 
 **Reflection:**
 
