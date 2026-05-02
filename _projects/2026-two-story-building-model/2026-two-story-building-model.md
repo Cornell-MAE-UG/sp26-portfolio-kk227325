@@ -164,10 +164,30 @@ This observation is verified by the result of measuring the time of computation 
 
 ***
 
-**Task 4:**
+**Task 4:** Uses an $O(h^2)$ centered finite difference scheme on the $v_2$ data to compute the acceleration of the second floor $\ddot{x}_2$ for each forcing amplitude and classifies the building response due to the maximum acceleration.
+
+**Results:**
 <figure>
   <p align="center">
-    <img src="{{ site.baseurl }}/assets/images/2026-two-story-building-model/tsbm-fe-T10000.png" alt="tsbm-fe-T10000" width="400" />
-    <figcaption align="center"><b>Figure 5: Solution of ODE using the Runge-Kutta method, h = T/10000<sup>2</sup></b></figcaption>
+    <img src="{{ site.baseurl }}/assets/images/2026-two-story-building-model/tsbm-a2.png" alt="tsbm-a2" width="400" />
+    <figcaption align="center"><b>Figure 6: Acceleration of the second floor for each forcing amplitude</b></figcaption>
   </p>
 </figure>
+
+**Table 3: Maximum acceleration of second floor**
+
+| A (m/s$^2$) | $\ddot{x}_2$ (m/s$^2$) | Building response |
+| :---: | :---: | :---:|
+| Runge-Kutta | $0.027045011520385742$ | Weak Jolt |
+| Forward Euler | $0.14670372009277344$ | Collapse |
+
+The building response was classified using the following standards:
+
+**Table 4: Building response**
+
+| Maximum acceleration (m/s$^2$) | Building response |
+| :---: | :---: |
+| 0 to 4 m/s$^2$ | Weak Jolt |
+| 4 to 8 m/s$^2$ | Strong Jolt |
+| 8 to 12 m/s$^2$ | Fracture |
+| 12 m/s$^2$ and above | Collapse |

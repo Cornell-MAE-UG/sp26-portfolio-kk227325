@@ -384,7 +384,7 @@ $$EI = 61700 \text{ lbf}\cdot\text{in}^2$$
 | Cast Iron, malleable (2% C, 1% Si, ASTM A-47) | 0.264 | 24 |
 | Yellow Brass (65% Cu, 35% Zn) | 0.306 | 15 |
 | Timber, Red oak | 0.024 | 1.8 |
-{: style="width: 100%;"}
+{: style="width: auto; margin-left: 0;"}
 
 Since we want to maximize mass, we want the highest ratio of E to specific weight. Out of the options in the table, we see that the aluminum has the highest stiffness to mass ratio of $\frac{10.1}{0.098} = 103$, so we will choose aluminum for the nut cracker material.
 
