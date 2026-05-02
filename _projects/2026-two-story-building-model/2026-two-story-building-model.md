@@ -9,7 +9,7 @@ thumbnail: /assets/images/2026-two-story-building-model/tsbm-problem.png
 mathjax: true
 ---
 
-This project uses a passive two-story building model to model the effect of an earthquake on a structure, employing various numerical analysis tools learned this semester.
+This project uses a passive two-story building model to model the effect of an earthquake on a structure, employing various numerical analysis tools.
 
 **Given:**
 
@@ -34,6 +34,7 @@ $$m_1 \ddot{x}_1 - F_d - F_{sp} = -m_1 \ddot{x}_g -c_f \dot{x}_1 -k_f x_1$$
   </li>
 </ul>
 
+
 Additionally, the spring and damper forces behave as non-linear polynomial functions of aggregate displacement $\Delta x = x_2 - x_1$ and $\Delta \dot{x} = \dot{x}_2 - \dot{x}_1$ as follows:
 
 $$F_{sp} = k_1 \Delta x + k_2 \Delta x^2 + k_3 \Delta x^3$$
@@ -46,7 +47,9 @@ Lastly, we will model the earthquake ground acceleration function as a sine wave
 
 $$\ddot{x}_g = A\sin (\omega t) \,\,\,\,\, 0 \leq t \leq T = \frac{2 \pi}{\omega}$$
 
+
 ***
+
 
 The code <a href="{{ "sp26-portfolio-kk227325/_projects/2026-two-story-building-model/2026-two-story-building-model.py" | relative_url }}">2026-two-story-building-model.py</a> accomplishes the following tasks:
 
@@ -91,6 +94,7 @@ $$\left\{
 Note that $v_2 - v_1$ and $x_2 - x_1$ are the <i>inputs</i> to the $F_d$ and $F_{sp}$ functions, respectively.
 
 **Results:**
+
 We determined that using a time step of $h = T/200$ achieved timestep independence, as the solutions for this time step were essentially indistinguishable from the solutions if we reduced the time step by half, to $h = T/400$. Figures 4 and 5 shows our numerically determined solutions to the system of ODE's for each forcing amplitude.
 
 <figure>
@@ -131,6 +135,7 @@ From trial and error, we found that at $h = T/10000$, the absolute difference be
 
 The results are summarized in the following table:
 
+
 **Table 1: Comparing values at x<sub>1</sub>, x<sub>2</sub>, v<sub>1</sub>, and v<sub>2</sub> values at t = 2T between Runge-Kutta and Forward Euler methods**
 
 <table width="30%">
@@ -170,6 +175,15 @@ The results are summarized in the following table:
   </tbody>
 </table>
 
+**Table 1: Comparing values at $x_1$, $x_2$, $v_1$, and $v_2$ values at $t = 2T$ between Runge-Kutta and Forward Euler methods**
+
+| | Runge-Kutta, $h=T/200$ | Forward Euler, $h=T/10000$ | Absolute difference |
+| :---: | :---: | :---: | :---: |
+| $x_1$ | $-0.0001405736569685958$ | $-0.0005913086740531184$ | $0.00045073501708452256$ |
+| $x_2$ | $-0.0001405736569685958$ | $-0.0005913086740531184$ | $0.00045073501708452256$ |
+| $v_1$ | $0.0019618261238128635$ | $0.008915495782174165$ | $0.006953669658361301$ |
+| $v_2$ | $0.0021066720511363083$ | $-0.007844023734345375$ | $0.009950695785481682$ |
+
 **Reflection:**
 
 This task shows us how the Runge-Kutta method is far more efficient than the forward Euler method. While it is true that the Runge-Kutta method must evaluate each derivative four times per timestep, the forward Euler method requires $10000 \div 200 = 50$ times more timesteps, thus making Runge-Kutta much faster to compute a solution of the same accuracy.
@@ -196,3 +210,10 @@ This observation is verified by the result of measuring the time of computation 
     </tr>
   </tbody>
 </table>
+
+**Table 2: Comparison of the efficiency of Runge-Kutta and forward Euler methods**
+
+| Method | Elapsed Time (s) |
+| :---: | :---: |
+| Runge-Kutta | $0.027045011520385742$ |
+| Forward Euler | $0.14670372009277344$ |
