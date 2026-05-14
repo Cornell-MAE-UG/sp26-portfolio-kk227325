@@ -31,6 +31,7 @@ permalink: /cv/
 
 #### Experience
 - **Cornell University AutoBoat Project Team**, Ithaca, NY	
+  
   November 2025 – present
   - Leading the design, testing, and integration of the object delivery system
   - Engineered racquetball feeder and launching mechanisms with a focus on reliability and DFMA principles
@@ -47,7 +48,7 @@ permalink: /cv/
 
 #### Skills
 - **CAD/CAM Software:** SOLIDWORKS • Autodesk Fusion 360 • Onshape • BambuStudio • Cura
-Manufacturing: Manual Machining • 3D-Printing (Bambu, Creality) • Laser-cutting (Epilog)
+- **Manufacturing:** Manual Machining • 3D-Printing (Bambu, Creality) • Laser-cutting (Epilog)
 - **Programming:** Python • MATLAB • Markdown • C++
 - **Computer Software:** 3DEXPERIENCE • SkyCiv • Google Suite • Adobe Suite • Microsoft Office
 - **Embedded Systems:** Arduino (Nano, Uno)
@@ -57,7 +58,8 @@ Manufacturing: Manual Machining • 3D-Printing (Bambu, Creality) • Laser-cutt
 
 #### Professional Experience
 - **Audio Visual Support Assistant**, Cornell University, Ithaca, NY	
-  September 2025 – present
+  
+    September 2025 – present
   -	Delivering technical support for 5000+ faculty and students across the College of Arts and Sciences
   -	Rapidly responding to help desk tickets; providing on-site troubleshooting for hardware & software issues
   -	Executing proactive testing to curb classroom technical failures by 50%.
@@ -66,7 +68,9 @@ Manufacturing: Manual Machining • 3D-Printing (Bambu, Creality) • Laser-cutt
 ---
 
 #### Leadership Experience/Community Service
-Internal Logistics Director, Science Olympiad at Cornell, Ithaca, NY	August 2025 – present
+- **Internal Logistics Director**, Science Olympiad at Cornell, Ithaca, NY 
+
+  August 2025 – present
   -	Managing logistics of hosting biannual Science Olympiad tournaments serving 1000+ students annually
   -	Collaborating with E-board to deliver a fun and high-quality experience for competitors and volunteers 
   -	Ensuring tournament success through proactive planning and multifaceted support for team members
