@@ -30,7 +30,7 @@ permalink: /cv/
 ---
 
 #### Experience
-- <table width="100%" border="0"><tr><td align="left"><b>Cornell University AutoBoat Project Team</b>, Ithaca, NY</td><td align="right">November 2025 – present</td></tr></table>
+- <table width="100%" style="vertical-align: middle; display: inline-table;" border="0"><tr><td align="left"><b>Cornell University AutoBoat Project Team</b>, Ithaca, NY</td><td align="right">November 2025 – present</td></tr></table>
   - Leading the design, testing, and integration of the object delivery system
   - Engineered racquetball feeder and launching mechanisms with a focus on reliability and DFMA principles
   - Implemented robust top-down modeling and parametric design intent
@@ -55,9 +55,7 @@ permalink: /cv/
 ---
 
 #### Professional Experience
-- **Audio Visual Support Assistant**, Cornell University, Ithaca, NY	
-  
-    September 2025 – present
+- <table width="100%" style="vertical-align: middle; display: inline-table;" border="0"><tr><td align="left"><b>Audio Visual Support Assistant</b>, Cornell University, Ithaca, NY </td><td align="right">September 2025 – present</td></tr></table>
   -	Delivering technical support for 5000+ faculty and students across the College of Arts and Sciences
   -	Rapidly responding to help desk tickets; providing on-site troubleshooting for hardware & software issues
   -	Executing proactive testing to curb classroom technical failures by 50%.
@@ -66,9 +64,7 @@ permalink: /cv/
 ---
 
 #### Leadership Experience/Community Service
-- **Internal Logistics Director**, Science Olympiad at Cornell, Ithaca, NY 
-
-  August 2025 – present
+- <table width="100%" style="vertical-align: middle; display: inline-table;" border="0"><tr><td align="left"><b>Internal Logistics Director</b>, Science Olympiad at Cornell, Ithaca, NY</td><td align="right">September 2025 – present</td></tr></table>
   -	Managing logistics of hosting biannual Science Olympiad tournaments serving 1000+ students annually
   -	Collaborating with E-board to deliver a fun and high-quality experience for competitors and volunteers 
   -	Ensuring tournament success through proactive planning and multifaceted support for team members
