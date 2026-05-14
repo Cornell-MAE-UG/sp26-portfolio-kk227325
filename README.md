@@ -21,11 +21,11 @@ Below is a table of contents of <a href="{{ "/projects/" | relative_url }}">my p
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 12px;"><b>ENGRD 2020 Statics and Mechanics of Solids:</b></td>
+      <td style="padding: 12px;"><b>ENGRD 2020 Statics and Mechanics of Solids</b></td>
       <td style="padding: 12px;">Macadamia Nut Nut Cracker Design</td>
     </tr>
     <tr>
-      <td style="padding: 12px;"><b>ENGRD 3200 Engineering Computation:</b></td>
+      <td style="padding: 12px;"><b>ENGRD 3200 Engineering Computation</b></td>
       <td style="padding: 12px;">Two-story Building Model</td>
     </tr>
   </tbody>
