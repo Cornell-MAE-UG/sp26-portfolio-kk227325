@@ -5,9 +5,7 @@ permalink: /cv/
 ---
 <style>
   .wrapper, .container, .markdown-body {
-    max-width: 110% !important; 
-    width: auto !important;
-    margin: 0 auto !important;
+    max-width: 900px !important;
   }
 </style>
 
