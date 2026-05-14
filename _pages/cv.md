@@ -5,66 +5,67 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+[Download my CV]({{ "/assets/Keisuke_CV.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
-
----
-
-#### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+**Email:** [keisukekwong@gmail.com](mailto:keisukekwong@gmail.com) | | | **Phone:** (808) 209-3939
 
 ---
 
 #### Education
-- **Cornell University**  
-  *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+- **Cornell University**, Ithaca, NY
+  *Candidate for a Bachelor of Science, Mechanical Engineering*  
+  GPA: 4.22/4.00 | Expected graduation: May 2029
 
-- **[High School Name]**  
+- **ʻIolani School** , Honolulu, HI
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Weighted GPA: 4.44 / Unweighted GPA: 4.00/4.00 | Graduated: June 2025
+
+---
+
+#### Experience
+- **Cornell University AutoBoat Project Team**, Ithaca, NY	
+  November 2025 – present
+  - Leading the design, testing, and integration of the object delivery system
+  - Engineered racquetball feeder and launching mechanisms with a focus on reliability and DFMA principles
+  - Implemented robust top-down modeling and parametric design intent
+  - Produced comprehensive technical documentation
+  - 100+ hours of SOLIDWORKS & Fusion 360 experience; 20+ hours of machine shop operation
+
+---
+#### Certifications
+- **SOLIDWORKS Design Professional (CSWP)**, Dassault Systèmes	April 2026
+- **SOLIDWORKS Design Associate (CSWA)**, Dassault Systèmes	April 2026
 
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
-- **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
+- **CAD/CAM Software:** SOLIDWORKS • Autodesk Fusion 360 • Onshape • BambuStudio • Cura
+Manufacturing: Manual Machining • 3D-Printing (Bambu, Creality) • Laser-cutting (Epilog)
+- **Programming:** Python • MATLAB • Markdown • C++
+- **Computer Software:** 3DEXPERIENCE • SkyCiv • Google Suite • Adobe Suite • Microsoft Office
+- **Embedded Systems:** Arduino (Nano, Uno)
+- **Languages:** Japanese (Fluent)
 
 ---
 
-#### Projects
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
-
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+#### Professional Experience
+- **Audio Visual Support Assistant**, Cornell University, Ithaca, NY	
+  September 2025 – present
+  -	Delivering technical support for 5000+ faculty and students across the College of Arts and Sciences
+  -	Rapidly responding to help desk tickets; providing on-site troubleshooting for hardware & software issues
+  -	Executing proactive testing to curb classroom technical failures by 50%.
+  -	Conducting room improvement tasks to maintain and upgrade systems 
 
 ---
 
-#### Work Experience
-- **[Company Name] - Intern**  
-  [Month, Year] - [Month, Year]  
-  - Responsibility 1  
-  - Responsibility 2  
-
----
-
-#### Achievements & Certifications
-- [Certification Name], [Issuing Organization], [Year]  
-- [Achievement Name], [Competition/Event], [Year]  
-
----
-
-#### Extracurricular Activities
-- Member of [Club/Organization Name]  
-- Volunteer for [Event/Organization Name]  
+#### Leadership Experience/Community Service
+Internal Logistics Director, Science Olympiad at Cornell, Ithaca, NY	August 2025 – present
+  -	Managing logistics of hosting biannual Science Olympiad tournaments serving 1000+ students annually
+  -	Collaborating with E-board to deliver a fun and high-quality experience for competitors and volunteers 
+  -	Ensuring tournament success through proactive planning and multifaceted support for team members
+  -	Communicating closely with university facilities staff to manage large-scale reservations.
+  -	Support youth STEM initiatives through local outreach with Science Olympiad Inc. and Ithaca SMArTS
 
 ---
 
