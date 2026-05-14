@@ -8,7 +8,7 @@ permalink: /cv/
 [Download my CV]({{ "/assets/Keisuke_CV.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [keisukekwong@gmail.com](mailto:keisukekwong@gmail.com) | | | **Phone:** (808) 209-3939
+**Email:** [keisukekwong@gmail.com](mailto:keisukekwong@gmail.com) | | | **Phone:** (808) 209-3939 | | | **LinkedIn:** [https://www.linkedin.com/in/keisuke-kwong/](https://www.linkedin.com/in/keisuke-kwong/).
 
 ---
 
