@@ -12,7 +12,15 @@ Below is a table of contents of <a href="{{ "/projects/" | relative_url }}">my p
 
 ### Spring 2026
 
-<b>ENGRD 2020 Statics and Mechanics of Solids</b>
-
-
-<b>ENGRD 3200 Engineering Computation</b>
+<table>
+  <tr>
+    <td><b>ENGRD 2020</b></td>
+    <td>Statics and Mechanics of Solids</td>
+    <td>Macadamia Nut Nut Cracker Design</td>
+  </tr>
+  <tr>
+    <td><b>ENGRD 3200</b></td>
+    <td>Engineering Computation</td>
+    <td>Two-story Building Model</td>
+  </tr>
+</table>
