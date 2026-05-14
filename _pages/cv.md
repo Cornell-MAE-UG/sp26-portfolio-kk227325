@@ -3,6 +3,14 @@ layout: default
 title: Keisuke Kwong - Curriculum Vitae
 permalink: /cv/
 ---
+<style>
+  .wrapper, .container, .markdown-body {
+    max-width: 110% !important; 
+    width: auto !important;
+    margin: 0 auto !important;
+  }
+</style>
+
 ## Curriculum Vitae
 
 [Download my CV]({{ "/assets/Keisuke_CV.pdf" | relative_url }}) in PDF format.
