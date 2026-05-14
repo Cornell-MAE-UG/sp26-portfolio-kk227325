@@ -30,9 +30,7 @@ permalink: /cv/
 ---
 
 #### Experience
-- **Cornell University AutoBoat Project Team**, Ithaca, NY	
-  
-  November 2025 – present
+- <table width="100%" border="0"><tr><td align="left"><b>Cornell University AutoBoat Project Team</b>, Ithaca, NY</td><td align="right">November 2025 – present</td></tr></table>
   - Leading the design, testing, and integration of the object delivery system
   - Engineered racquetball feeder and launching mechanisms with a focus on reliability and DFMA principles
   - Implemented robust top-down modeling and parametric design intent
