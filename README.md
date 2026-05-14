@@ -15,8 +15,8 @@ Below is a table of contents of <a href="{{ "/projects/" | relative_url }}">my p
 <table class="table table-bordered" style="width: 100%; border-collapse: collapse;">
   <thead>
     <tr class="table-light">
-      <th style="padding: 12px; width: 45%;">Course</th>
-      <th style="padding: 12px; width: 55%;">Project</th>
+      <th style="padding: 12px; width: 55%;">Course</th>
+      <th style="padding: 12px; width: 45%;">Project</th>
     </tr>
   </thead>
   <tbody>
