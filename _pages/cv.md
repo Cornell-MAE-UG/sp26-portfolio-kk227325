@@ -31,11 +31,11 @@ permalink: /cv/
 
 #### Experience
 - <table width="100%" style="vertical-align: middle; display: inline-table;" border="0"><tr><td align="left"><b>Cornell University AutoBoat Project Team</b>, Ithaca, NY</td><td align="right">November 2025 – present</td></tr></table>
-  - Leading the design, testing, and integration of the object delivery system
+  - Contribute to an autonomous boat project for the RoboBoat competition, collaborating with 60+ members
+  - Lead the R&D process of object delivery system, CAD with SOLIDWORKS and Fusion 360, fabricate using 3D-printers, machines, and electrical soldering, code Arduino microcontrollers, and conduct testing
   - Engineered racquetball feeder and launching mechanisms with a focus on reliability and DFMA principles
-  - Implemented robust top-down modeling and parametric design intent
-  - Produced comprehensive technical documentation
-  - 100+ hours of SOLIDWORKS & Fusion 360 experience; 20+ hours of machine shop operation
+  - Implemented robust top-down modeling and parametric design intent in CAD models
+  - Produced comprehensive technical documentation for continuity of knowledge with future members
 
 ---
 #### Certifications
@@ -56,20 +56,19 @@ permalink: /cv/
 
 #### Professional Experience
 - <table width="100%" style="vertical-align: middle; display: inline-table;" border="0"><tr><td align="left"><b>Audio Visual Support Assistant</b>, Cornell University, Ithaca, NY </td><td align="right">September 2025 – present</td></tr></table>
-  -	Delivering technical support for 5000+ faculty and students across the College of Arts and Sciences
-  -	Rapidly responding to help desk tickets; providing on-site troubleshooting for hardware & software issues
-  -	Executing proactive testing to curb classroom technical failures by 50%.
-  -	Conducting room improvement tasks to maintain and upgrade systems 
+  -	Deliver in-classroom technical support for 5000+ faculty and students
+  - Rapidly respond to help desk tickets; provide on-site troubleshooting for hardware & software issues
+  - Execute proactive testing to curb classroom technical failures by 50%
+  - Conduct room improvement tasks to maintain and upgrade systems to align with the latest technologies
 
 ---
 
 #### Leadership Experience/Community Service
 - <table width="100%" style="vertical-align: middle; display: inline-table;" border="0"><tr><td align="left"><b>Internal Logistics Director</b>, Science Olympiad at Cornell, Ithaca, NY</td><td align="right">September 2025 – present</td></tr></table>
-  -	Managing logistics of hosting biannual Science Olympiad tournaments serving 1000+ students annually
-  -	Collaborating with E-board to deliver a fun and high-quality experience for competitors and volunteers 
-  -	Ensuring tournament success through proactive planning and multifaceted support for team members
-  -	Communicating closely with university facilities staff to manage large-scale reservations.
-  -	Support youth STEM initiatives through local outreach with Science Olympiad Inc. and Ithaca SMArTS
+  - Manage logistics of biannual Science Olympiad tournaments, serving 1000+ middle & high school students
+  - Coordinate large-scale venue reservations, communicate with facilities staff, and create day-of schedules
+  - Collaborate with the E-board weekly to plan 20+ STEM events and support a team of 100+ members
+  - Support youth STEM initiatives through local outreach with Science Olympiad Inc. and Ithaca SMArTS
 
 ---
 
