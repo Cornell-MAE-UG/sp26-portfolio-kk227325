@@ -39,8 +39,8 @@ permalink: /cv/
 
 ---
 #### Certifications
-- **SOLIDWORKS Design Professional (CSWP)**, Dassault Systèmes	April 2026
-- **SOLIDWORKS Design Associate (CSWA)**, Dassault Systèmes	April 2026
+- <table width="100%" style="vertical-align: middle; display: inline-table;" border="0"><tr><td align="left"><b>SOLIDWORKS Design Professional (CSWP)</b>, Dassault Systèmes</td><td align="right">April 2026</td></tr></table>
+- <table width="100%" style="vertical-align: middle; display: inline-table;" border="0"><tr><td align="left"><b>SOLIDWORKS Design Associate (CSWA)</b>, Dassault Systèmes</td><td align="right">April 2026</td></tr></table>
 
 ---
 
