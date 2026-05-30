@@ -330,7 +330,7 @@ It makes sense that the largest deflection of the handle occurs at the free end 
 <figure>
   <p align="center">
     <img src="{{ site.baseurl }}/assets/images/2026-macadamia-nut/macadamia-part3-reflection.png" alt="macadamia-part3-reflection" width="300" />
-    <figcaption align="center"><b>Figure 11: Free body diagram of handle at slices through AB and BC.</b></figcaption>
+    <figcaption align="center"><b>Figure 11: Visualization of handle deflection.</b></figcaption>
   </p>
 </figure>
 
