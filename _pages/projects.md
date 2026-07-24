@@ -16,3 +16,16 @@ permalink: /projects/
     {% endfor %}
 </div>
 </div>
+
+<div class="gallery-container">
+<div class="project-gallery">
+    {% for project in site.projects2 %}
+      <div class="gallery-item">
+        <a href="{{ project.url | relative_url }}">
+          <img src="{{ project.thumbnail | relative_url }}" alt="{{ project.title }}" />
+          <p>{{ project.title}}</p>
+        </a>
+      </div>
+    {% endfor %}
+</div>
+</div>
