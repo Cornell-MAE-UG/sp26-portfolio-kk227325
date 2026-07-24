@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Racquetball Launcher
-description: Documentation for AutoBoat Project Team
+title: FA25/SP26 Racquetball Launcher
+description: Racquetball Launcher Adjustments and Waterproofing Documentation
 technologies: [Fusion360, SOLIDWORKS, BambuStudio]
 image: /assets/images/2026-racquetball-launcher/racquetball-launcher.JPG
 thumbnail: /assets/images/2026-racquetball-launcher/racquetball-launcher.JPG

@@ -4,6 +4,10 @@ title: Keisuke Kwong - MAE Portfolio
 permalink: /projects/
 ---
 
+<hr style="margin: 40px 0; border: none; border-top: 1px solid #ccc;">
+
+<h2 class="section-title">Coursework Overview</h2>
+
 <div class="gallery-container">
 <div class="project-gallery">
     {% for project in site.projects %}
@@ -16,6 +20,10 @@ permalink: /projects/
     {% endfor %}
 </div>
 </div>
+
+<hr style="margin: 40px 0; border: none; border-top: 1px solid #ccc;">
+
+<h2 class="section-title">AutoBoat Projects</h2>
 
 <div class="gallery-container">
 <div class="project-gallery">

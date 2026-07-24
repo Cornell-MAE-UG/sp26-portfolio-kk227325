@@ -8,6 +8,8 @@ permalink: /readme/
 
 This portfolio contains an overview of my coursework, highlighting samples across the engineering classes I have taken during my undergraduate career in the Sibley School of Mechanical and Aerospace Engineering at Cornell University.
 
+This portfolio also contains my technical documentation and reports contributed to the Cornell AutoBoat project team.
+
 Below is a table of contents of <a href="{{ "/projects/" | relative_url }}">my projects</a> presented in this repository.
 
 ### Spring 2026
@@ -27,6 +29,23 @@ Below is a table of contents of <a href="{{ "/projects/" | relative_url }}">my p
     <tr>
       <td style="padding: 12px;"><b>ENGRD 3200 Engineering Computation</b></td>
       <td style="padding: 12px;">Two-story Building Model</td>
+    </tr>
+  </tbody>
+</table>
+
+### AutoBoat
+
+<table class="table table-bordered" style="width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr class="table-light">
+      <th style="padding: 12px; width: 30%;">Year</th>
+      <th style="padding: 12px; width: 70%;">Project</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 12px;"><b>Fall 2025/Spring 2026</b></td>
+      <td style="padding: 12px;">Racquetball Launcher Adjustments and Waterproofing</td>
     </tr>
   </tbody>
 </table>
