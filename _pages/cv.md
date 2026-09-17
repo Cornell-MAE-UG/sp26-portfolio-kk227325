@@ -21,7 +21,7 @@ permalink: /cv/
 #### Education
 - **Cornell University**, Ithaca, NY
   *Candidate for a Bachelor of Science, Mechanical Engineering*  
-  GPA: 4.22/4.00 | Expected graduation: May 2029
+  GPA: 4.26/4.00 | Expected graduation: May 2029
 
 - **ʻIolani School** , Honolulu, HI
   *High School Diploma*  
