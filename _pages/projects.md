@@ -27,7 +27,7 @@ permalink: /projects/
 
 <div class="gallery-container">
 <div class="project-gallery">
-    {% for project in site.projects2 %}
+    {% for project in site.projects2 | sort: 'title' %}
       <div class="gallery-item">
         <a href="{{ project.url | relative_url }}">
           <img src="{{ project.thumbnail | relative_url }}" alt="{{ project.title }}" />

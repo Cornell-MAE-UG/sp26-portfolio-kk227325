@@ -49,7 +49,7 @@ Below is a table of contents of <a href="{{ "/projects/" | relative_url }}">my p
     </tr>
     <tr>
       <td style="padding: 12px;"><b>Fall 2026</b></td>
-      <td style="padding: 12px;">Racquetball Launcher Adjustments and Waterproofing</td>
+      <td style="padding: 12px;">Racquetball Enclosure Waterproofing</td>
     </tr>
   </tbody>
 </table>
