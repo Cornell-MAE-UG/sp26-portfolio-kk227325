@@ -23,10 +23,12 @@ Presentation PDF (PowerPoint can be downloaded below):
 </iframe>
 
 Demonstration Video:
-<video width="20%" controls>
-  <source src="{{ '/assets/images/2026-hypoalert/hypoalert-demo.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag. Please download the PowerPoint to view the video: 
-    <a href="{{ '/assets/pdf/HypoAlert.pptx' | relative_url }}">Download PowerPoint</a>
-</video>
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <video width="50%" controls>
+    <source src="{{ '/assets/images/2026-hypoalert/hypoalert-demo.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag. Please download the PowerPoint to view the video: 
+      <a href="{{ '/assets/pdf/HypoAlert.pptx' | relative_url }}">Download PowerPoint</a>
+  </video>
+</div>
 
 Download my presentation as a [PowerPoint]({{ "/assets/pdf/HypoAlert.pptx" | relative_url }}) or [PDF]({{ "/assets/pdf/HypoAlert.pdf" | relative_url }}).
