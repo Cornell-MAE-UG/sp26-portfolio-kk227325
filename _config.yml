@@ -27,6 +27,9 @@ collections:
   projects2:
     output: true
     permalink: /:collection/:path/
+  projects3:
+    output: true
+    permalink: /:collection/:path/
 
 # Markdown
 markdown: kramdown

@@ -54,7 +54,7 @@ Below is a table of contents of <a href="{{ "/projects/" | relative_url }}">my p
   </tbody>
 </table>
 
-### Other
+### Other Projects
 
 <table class="table table-bordered" style="width: 100%; border-collapse: collapse;">
   <thead>
@@ -66,7 +66,7 @@ Below is a table of contents of <a href="{{ "/projects/" | relative_url }}">my p
   <tbody>
     <tr>
       <td style="padding: 12px;"><b>February 21-22 2026</b></td>
-      <td style="padding: 12px;">BigRed//Make-a-thon 2026</td>
+      <td style="padding: 12px;">HypoAlert | BigRed//Make-a-thon 2026</td>
     </tr>
   </tbody>
 </table>

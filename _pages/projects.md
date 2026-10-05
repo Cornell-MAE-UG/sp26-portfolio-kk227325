@@ -38,8 +38,6 @@ permalink: /projects/
 </div>
 </div>
 
-<hr style="margin: 40px 0; border: none; border-top: 1px solid #ccc;">
-
 <h2 class="section-title">Other Projects</h2>
 
 <div class="gallery-container">
